@@ -1,0 +1,771 @@
+a,
+button,
+input {
+    outline: medium none;
+    color: #686868;
+    text-decoration: none !important;
+}
+
+.col-lg-2 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+p {
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 25px;
+    color: #454545;
+    margin-bottom: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #fff !important;
+}
+
+
+/*Start NavBar */
+
+.navbar {
+    flex-wrap: wrap !important;
+    justify-content: space-between !important;
+}
+
+.menu-wrapper {
+    position: relative;
+    margin-top: 4px;
+    margin-right: 85px;
+}
+
+.menu-wrapper .menu-toggle.open {
+    margin-right: 85px;
+}
+
+.header-cart-wrapper {
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: all 0.7s ease 0s;
+    cursor: pointer;
+}
+
+.header-cart {
+    position: relative;
+}
+
+.icon-cart {
+    background-color: #ffb52f;
+    position: relative;
+    float: right;
+    border: medium none;
+    padding: 34px 40px 24px;
+}
+
+.icon-cart i {
+    display: inline-block;
+    color: #2f2f2f;
+    font-size: 26px;
+}
+
+.icon-cart>span.count-price-add {
+    color: #2f2f2f;
+    display: inline-block;
+    font-family: "Oswald", sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 1;
+    margin: 2px 0 0 8px;
+}
+
+@media (min-width: 1200px) and (max-width: 1600px) {
+    .icon-cart {
+        padding: 34px 35px 24px;
+    }
+}
+
+.dropdown-item:focus,
+.dropdown-item:hover {
+    background-color: white !important;
+}
+
+.main-menu {
+    background-color: #001232;
+    margin-right: 30px;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    top: -13px;
+    transition: all 0.5s ease 0s;
+    width: 750px;
+    z-index: 2;
+    visibility: hidden;
+}
+
+.main-menu ul li:hover>a {
+    color: #ffb52f !important;
+}
+
+.main-menu ul li {
+    display: inline-block;
+    padding: 0 17.54px 0 0;
+    position: relative;
+}
+
+.main-menu ul li a {
+    color: #bdbdbd !important;
+    display: inline-block;
+    font-family: "Oswald", sans-serif;
+    font-size: 20.87px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    line-height: 27px;
+    text-transform: uppercase;
+    margin-top: -1px;
+}
+
+.main-menu nav ul li ul>li {
+    display: block;
+    padding: 0 18px;
+    position: relative;
+}
+
+.main-menu nav ul li:hover>ul {
+    opacity: 1;
+    top: 100%;
+    visibility: visible;
+}
+
+.main-menu nav>ul>li>ul {
+    background: #fff none repeat scroll 0 0;
+    box-shadow: 0 3px 7px rgb(0 0 0 / 10%);
+    display: block;
+    left: -23px;
+    opacity: 0;
+    padding: 25px 0px 27px;
+    position: absolute;
+    text-align: left;
+    top: 120%;
+    transition: all 0.3s ease 0s;
+    visibility: hidden;
+    width: 200px;
+    z-index: 999;
+}
+
+.main-menu nav ul li ul li>a,
+.stick .main-menu nav ul li ul li>a {
+    color: #666;
+    display: block;
+    font-weight: 400;
+    letter-spacing: 0.8px;
+    line-height: 32px;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+
+.main-menu nav ul li ul li:hover>a {
+    padding-left: 30px;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.main-menu nav ul li ul>li:hover>a::before {
+    opacity: 1;
+}
+
+.main-menu nav ul li ul>li>a::before {
+    background: #ffb52f none repeat scroll 0 0;
+    content: '';
+    height: 7px;
+    left: 15px;
+    opacity: 0;
+    position: absolute;
+    top: 18px;
+    transition: all 0.3s ease-in-out 0s;
+    width: 7px;
+    border-radius: 50%;
+    z-index: 999;
+}
+
+.menu-toggle {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.menu-toggle.open .menu-open {
+    opacity: 0;
+}
+
+.menu-toggle.open .menu-close {
+    left: 0;
+    position: absolute;
+    top: 1px;
+}
+
+.menu-toggle.open .menu-open {
+    left: 0;
+    position: absolute;
+    top: 1px;
+}
+
+.menu-toggle.open .menu-close {
+    display: block;
+}
+
+.menu-toggle .menu-close {
+    display: none;
+}
+
+.main-menu.open {
+    opacity: 1;
+    right: 100%;
+    visibility: visible;
+    z-index: 9999;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown>.dropdown-toggle:active {
+    pointer-events: none;
+}
+
+.header-cart.cart-small-device {
+    display: none;
+}
+
+.mobile-menu-area {
+    display: none;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .mobile-menu-area {
+        display: block;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .header-cart.cart-small-device {
+        display: inline-block;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .mean-container a.meanmenu-reveal {
+        top: -36px;
+        border: 1px solid #666;
+        padding: 6px 9px 3px;
+    }
+}
+
+
+/*End NavBar */
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1200px !important;
+    }
+}
+
+.slider-area {
+    position: relative;
+}
+
+.slider-1 {
+    padding: 165px 0 0px;
+}
+
+.product-area .owl-carousel.owl-drag .owl-item {
+    width: 377px !important;
+    margin-right: 15px !important;
+}
+
+.accessories-wrapper .owl-carousel.owl-drag .owl-item {
+    width: 315px !important;
+    margin-right: 17px !important;
+}
+
+.owl-item .slider-content * {
+    -webkit-animation-duration: 1.3s;
+    animation-duration: 1.3s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+@keyframes fadeInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-1000px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.owl-item.active .slider-img img,
+.owl-item.active .latest-product-img img {
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+    -webkit-animation-name: fadeInLeft;
+    animation-name: fadeInLeft;
+}
+
+@keyframes fadeInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.owl-item.active .latest-product-content h2,
+.owl-item.active .latest-product-content .latext-btn a {
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+    -webkit-animation-name: fadeInRight;
+    animation-name: fadeInRight;
+}
+
+.slider-active.owl-carousel .owl-item img {
+    display: inline-block;
+    width: auto;
+}
+
+.slider-active .owl-dots {
+    display: block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 100px;
+}
+
+.owl-theme .owl-dots .owl-dot span,
+.owl-theme .owl-dots .owl-dot.active span {
+    display: none !important;
+}
+
+.slider-active .owl-dot.active {
+    background: #2f2f2f none repeat scroll 0 0;
+    border: 1px solid #2f2f2f;
+}
+
+.slider-active .owl-dot {
+    display: block !important;
+    background: transparent none repeat scroll 0 0;
+    border: 1px solid #898989;
+    border-radius: 50%;
+    height: 16px;
+    margin: 19px 0;
+    width: 16px;
+}
+
+.product-tab-list {
+    display: flex;
+    justify-content: center;
+}
+
+.tab-content.jump>.tab-pane.active {
+    display: block;
+    height: auto;
+    opacity: 1;
+    overflow: visible;
+}
+
+.product-slider-active {
+    overflow: hidden;
+}
+
+.product-slider-active.owl-carousel .owl-nav {
+    float: right;
+    margin-top: 10px;
+}
+
+.product-slider-active.owl-carousel .owl-nav div,
+.latest-product-slider.owl-carousel .owl-nav div {
+    display: inline-block;
+    margin: 0 0 0 17px;
+    color: #9b9b9b;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: "Oswald", sans-serif;
+    position: relative;
+    transition: all .3s ease 0s;
+    background: none !important;
+}
+
+.product-slider-active.owl-carousel .owl-nav div.owl-prev::before,
+.latest-product-slider.owl-carousel .owl-nav div.owl-prev::before {
+    background-color: #9b9b9b;
+    content: "";
+    height: 2px;
+    left: 45px;
+    position: absolute;
+    top: 15px;
+    transform: rotate( -70deg);
+    transition: all 0.4s ease 0s;
+    width: 17px;
+}
+
+.product-slider-active.owl-carousel .owl-nav div:hover,
+.latest-product-slider.owl-carousel .owl-nav div:hover {
+    color: #ffb52f;
+}
+
+.product-area .tab-pane .product-slider-active.owl-carousel .owl-nav.disabled {
+    display: block !important;
+}
+
+.latext-btn>a {
+    background-color: #fff;
+    color: #001232 !important;
+    display: inline-block;
+    font-family: "Oswald", sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px 25px 10px;
+}
+
+.latext-btn>a:hover {
+    background-color: #ffb52f;
+    color: #001232;
+}
+
+
+/*Start Accessories Area*/
+
+.section-title>h2 {
+    font-size: 36px;
+    font-weight: bold !important;
+    margin-bottom: 30px !important;
+}
+
+.product-slider-active .product-wrapper,
+.product-accessories-active .product-wrapper {
+    margin: 10px 5px 30px;
+}
+
+.product-wrapper {
+    position: relative;
+    box-shadow: 0 2px 8px 0.5px rgb(0 0 0 / 22%);
+    overflow: hidden;
+    overflow-x: auto;
+}
+
+.product-img {
+    position: relative;
+}
+
+.product-img img {
+    width: 100%;
+}
+
+.product-wrapper:hover .product-title-price-2 {
+    opacity: 0;
+    bottom: -30px;
+}
+
+.product-action {
+    bottom: 55px;
+    display: flex;
+    justify-content: center;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    transition: all 0.3s ease 0s;
+    z-index: 99;
+    padding: 10px;
+}
+
+.product-wrapper:hover .product-action {
+    bottom: 45px;
+    opacity: 1;
+}
+
+.product-action a {
+    background-color: transparent;
+    color: #202020 !important;
+    display: inline-flex;
+    height: 38px;
+    justify-content: center;
+    margin: 0 5.5px;
+    padding: 5px 10px 10px;
+    transition: all 0.3s ease 0s;
+    font-size: 18px;
+    border: 1px solid #e8e8e8;
+    position: relative;
+    box-shadow: 5px 5px 5px #000;
+}
+
+.product-action a:hover {
+    background-color: #ffb52f;
+    border: 1px solid #ffb52f;
+}
+
+.product-content-wrapper-2 {
+    bottom: 20px;
+    left: 0;
+    opacity: 1;
+    padding: 2px 10px;
+    position: absolute;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+}
+
+.product-wrapper:hover .product-content-wrapper-2 {
+    bottom: -10px;
+    opacity: 0;
+}
+
+.product-title-price-2>span {
+    color: #353535;
+    display: block;
+    font-family: "Oswald", sans-serif;
+    font-size: 18px;
+    line-height: 1;
+    margin-bottom: 5px;
+}
+
+.product-title-price-2>h4 {
+    color: #353535 !important;
+    font-size: 24px;
+    font-weight: bold !important;
+    margin: 0;
+}
+
+.product-title-price-2>h4 a {
+    color: #353535;
+}
+
+
+/*End Accessories Area*/
+
+
+/*Start Page Information Area*/
+
+.pointer {
+    cursor: pointer !important;
+}
+
+.container-fluid .breadcrumb-content.text-center h2 {
+    cursor: pointer !important;
+}
+
+.breadcrumb-content>h2 {
+    color: #fff;
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 18px;
+    text-transform: uppercase;
+}
+
+.container-fluid .breadcrumb-content.text-center ul li {
+    cursor: pointer !important;
+}
+
+.breadcrumb-content li {
+    color: #fff;
+    display: inline-block;
+    font-size: 15px;
+    letter-spacing: 0.1px;
+    text-transform: uppercase;
+}
+
+.breadcrumb-content li a {
+    color: #fff;
+    padding-right: 20px;
+    position: relative;
+}
+
+.breadcrumb-content li a:hover {
+    color: #ffb52f !important;
+}
+
+.breadcrumb-content li a::after {
+    background-color: #fff;
+    content: "";
+    height: 2px;
+    position: absolute;
+    right: 1px;
+    top: 11px;
+    transform: rotate( -71deg);
+    width: 12px;
+}
+
+.overview-content {
+    margin-top: 19px;
+}
+
+.overview-content h1,
+.overview-content h2 {
+    color: #001232;
+    font-weight: 400;
+    font-size: 36px;
+    margin: 0;
+}
+
+.overview-content>p {
+    font-size: 15px;
+    font-weight: 300;
+    margin: 0;
+    width: 93%;
+}
+
+
+/*End Page Information Area*/
+
+
+/* Start Acccessories Details */
+
+.fluid-padding-2 .container-fluid {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.shop-topbar-wrapper {
+    border-bottom: 1px solid #f1f1f1;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    padding-bottom: 18px;
+}
+
+.product-wrapper {
+    position: relative;
+    box-shadow: 0 2px 8px 0.5px rgb(0 0 0 / 22%);
+    overflow: hidden;
+}
+
+.product-img {
+    position: relative;
+}
+
+.product-img img {
+    width: 100%;
+}
+
+.product-action {
+    bottom: 55px;
+    display: flex;
+    justify-content: center;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    transition: all 0.3s ease 0s;
+    z-index: 99;
+    padding: 10px;
+}
+
+.product-action a {
+    background-color: transparent;
+    color: #202020;
+    display: inline-flex;
+    height: 38px;
+    justify-content: center;
+    margin: 0 5.5px;
+    padding: 5px 10px 10px;
+    transition: all 0.3s ease 0s;
+    /* width: 50px; */
+    font-size: 18px;
+    border: 1px solid #e8e8e8;
+    position: relative;
+    box-shadow: 5px 5px 5px #000;
+}
+
+.product-action a i {
+    line-height: 21px;
+    padding: 3px;
+    padding-right: 4px;
+}
+
+.product-content-wrapper {
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    left: 0;
+    opacity: 1;
+    padding: 30px 40px 42px;
+    position: absolute;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+}
+
+.product-title-spreed>h4 {
+    color: #353535;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 7px;
+    font-family: "Oswald", sans-serif;
+}
+
+.product-title-spreed>h4 a {
+    color: #353535;
+    font-size: 19px;
+    font-weight: bold;
+    margin-bottom: 7px;
+    font-family: "Oswald", sans-serif;
+}
+
+.product-price>span {
+    color: #193783;
+    font-family: "Oswald", sans-serif;
+    font-size: 19px;
+    font-weight: bold;
+    line-height: 1;
+    margin-top: 2px;
+    display: inline-block;
+}
+
+.product-list-details {
+    display: none;
+}
+
+.product-list-details>h2 {
+    color: #353535;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.product-list-details>h2 a {
+    color: #353535;
+}
+
+.shop-list-cart>a {
+    border: 1px solid #ffb52f;
+    color: #333;
+    display: inline-block;
+    font-size: 14px;
+    padding: 10px 20px 8px;
+}
+
+.shop-list-cart>a i {
+    margin-right: 8px;
+}
+
+.product-wrapper:hover .product-action {
+    bottom: 45px;
+    opacity: 1;
+}
+
+.product-wrapper:hover .product-content-wrapper {
+    opacity: 0;
+    bottom: -30px;
+}
+
+
+/* End Acccessories Details */

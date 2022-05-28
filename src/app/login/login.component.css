@@ -1,0 +1,236 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: #303030;
+}
+
+::selection {
+    background: #4fc1f0;
+    color: #fff;
+    text-shadow: none;
+}
+
+a,
+button,
+input {
+    outline: medium none;
+    color: #686868;
+    text-decoration: none !important;
+}
+
+.ptb-19 {
+    padding: 19px 0;
+}
+
+.header-area {
+    background-color: white !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+    color: #001232;
+    margin-top: 0px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.3;
+    margin-bottom: .5rem;
+}
+
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10 {
+    float: left;
+}
+
+.col-4,
+.col-8 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
+/*Start Login*/
+
+.pb-40 {
+    padding-bottom: 40px;
+}
+
+.pt-130 {
+    padding-top: 130px;
+}
+
+.ml-auto,
+.mx-auto {
+    margin-left: auto!important;
+}
+
+.mr-auto,
+.mx-auto {
+    margin-right: auto!important;
+}
+
+.container-fluid .breadcrumb-content.text-center h2 {
+    cursor: pointer !important;
+}
+
+.breadcrumb-content>h2 {
+    color: #fff;
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 18px;
+    text-transform: uppercase;
+}
+
+.breadcrumb-content li a::after {
+    background-color: #fff;
+    content: "";
+    height: 2px;
+    position: absolute;
+    right: 1px;
+    top: 11px;
+    transform: rotate( -71deg);
+    width: 12px;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container-fluid .breadcrumb-content.text-center ul li {
+    cursor: pointer !important;
+}
+
+.breadcrumb-content li {
+    color: #fff;
+    display: inline-block;
+    font-size: 15px;
+    letter-spacing: 0.1px;
+    text-transform: uppercase;
+}
+
+.breadcrumb-content li a {
+    color: #fff;
+    padding-right: 20px;
+    position: relative;
+    text-decoration: none;
+}
+
+.ptb-130 {
+    padding: 130px 0;
+}
+
+.login-register-tab-list {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.login-register-tab-list.nav a.active h4,
+.login-register-tab-list.nav a h4:hover,
+.login-toggle-btn a:hover,
+.breadcrumb-content li a:hover {
+    color: #ffb52f;
+    text-decoration: none;
+}
+
+.login-toggle-btn a h4:hover {
+    color: #ffb52f;
+    text-decoration: none;
+    background-color: white;
+}
+
+.login-register-tab-list.nav a h4 {
+    font-size: 25px;
+    font-weight: 500;
+    margin: 0 20px;
+    text-transform: capitalize;
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+}
+
+.login-form-container {
+    background: transparent none repeat scroll 0 0;
+    box-shadow: 0 0 6px rgb(0 0 0 / 10%);
+    padding: 80px;
+    text-align: left;
+}
+
+.login-form-container input {
+    background-color: #f7f7f7;
+    border: medium none;
+    color: #7d7d7d;
+    font-size: 13px;
+    font-weight: 500;
+    height: 50px;
+    padding: 0 15px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.login-toggle-btn {
+    padding: 10px 0 19px;
+}
+
+.login-toggle-btn>a {
+    color: #666;
+    float: right;
+    transition: all 0.3s ease 0s;
+}
+
+.login-form button {
+    border: medium none;
+    cursor: pointer;
+}
+
+.btn-style {
+    background-color: #ffb52f;
+    border-radius: 0;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 18px;
+    padding: 14px 33px 12px;
+    position: relative;
+    text-transform: uppercase;
+    transition: all 0.4s ease-in-out 0s;
+    overflow: hidden;
+    z-index: 99;
+    margin-right: 5px;
+}
+
+.btn-style:hover {
+    background-color: #001232;
+}
+
+p {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 25px;
+    color: #454545;
+    margin-bottom: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/*End Login*/

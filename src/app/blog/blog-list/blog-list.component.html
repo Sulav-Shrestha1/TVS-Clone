@@ -1,0 +1,101 @@
+<!--Start Page Information Area-->
+
+<div class="breadcrumb-area pt-130 pb-40" style="background-image: url(https://tvsnepal.com/assets/img/banner/banner-4.jpg)">
+    <div class="container-fluid">
+        <div class="breadcrumb-content text-center">
+            <h2>Nepal’s first bike and scooter with SmartXConnect</h2>
+            <ul>
+                <li>
+                    <a routerLink="/">home</a>
+                </li>
+                <li>
+                    <a routerLink="/Blog">Blog</a>
+                </li>
+                <li class="pointer">
+                    Nepal’s first bike and scooter with SmartXConnect
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!--End Page Information Area-->
+
+<!--Start BLog Area-->
+
+<div class="blog-area pt-120 pb-130">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="blog-details-wrapper res-mrg-top">
+                    <h2 class="pointer">{{trgItem.Name}}</h2>
+                    <div class="blog-img">
+                        <img src="{{trgItem.blogImg}}" alt="{{trgItem.Name}}" title="{{trgItem.Name}}">
+                    </div>
+                    <p class="pointer"><b><i class="fa fa-user"></i> Admin | <i class="fa fa-calendar"></i> {{trgItem.Date}}</b></p>
+
+                    <p>{{trgDetails.p1}}</p>
+                    <p>{{trgDetails.p2}}</p>
+                    <p><strong>{{trgDetails.strong1}}</strong></p>
+                    <p>{{trgDetails.p3}}</p>
+                    <p>&nbsp;</p>
+                    <p><strong>{{trgDetails.strong2}}</strong></p>
+                    <p>{{trgDetails.p4}}</p>
+                    <p>&nbsp;</p>
+                    <p><strong>{{trgDetails.strong3}}</strong></p>
+                    <p>{{trgDetails.p5}}</p>
+                    <p>&nbsp;</p>
+                    <p><strong>{{trgDetails.strong4}}</strong></p>
+                    <p>{{trgDetails.p6}}</p>
+                    <p>&nbsp;</p>
+                    <p><strong>{{trgDetails.strong5}}</strong></p>
+                    <p>{{trgDetails.p7}}&nbsp;&nbsp;</p>
+                    <p>&nbsp;</p>
+                    <p><strong>{{trgDetails.strong6}}</strong></p>
+                    <p>{{trgDetails.p8}}</p>
+                    <p>&nbsp;</p>
+                    <p>{{trgDetails.p9}}</p>
+                    <p>{{trgDetails.p10}}</p>
+                    <p>{{trgDetails.p11}}</p>
+                    <p>{{trgDetails.p12}}</p>
+                    <p>{{trgDetails.p13}}</p>
+                    <p>{{trgDetails.p14}}</p>
+                    <p>{{trgDetails.p15}}</p>
+                    <p>{{trgDetails.p16}}</p>
+                    <p>{{trgDetails.p17}}</p>
+                    <p>{{trgDetails.p18}}</p>
+                    <p>{{trgDetails.p19}}</p>
+                    <p>{{trgDetails.p20}}</p>
+                    <p>{{trgDetails.p21}}</p>
+                    <p>{{trgDetails.p22}}</p>
+                    <button type="button" class="btn btn-success pointer">Apply Now</button>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="product-sidebar-area pr-30">
+
+                    <div class="sidebar-widget">
+                        <h3 class="sidebar-widget pointer">other post</h3>
+                        <div class="best-seller">
+
+                            <div class="single-best-seller" *ngFor="let blog of blogs">
+                                <div class="best-seller-img">
+                                    <a routerLink="/BlogList/{{blog.ID}}">
+                                        <img src="{{blog.blogImg}}" alt="{{blog.Name}}" title="{{blog.Name}}" style="width: 100px;">
+                                    </a>
+                                </div>
+                                <div class="best-seller-text">
+                                    <h3><a routerLink="/BlogList/{{blog.ID}}">{{blog.Name}}</a></h3>
+                                    <span>{{blog.Date}}</span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--End BLog Area-->

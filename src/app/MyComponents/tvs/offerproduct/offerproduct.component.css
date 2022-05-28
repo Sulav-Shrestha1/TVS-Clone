@@ -1,0 +1,324 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: #303030;
+}
+
+::selection {
+    background: #4fc1f0;
+    color: #fff;
+    text-shadow: none;
+}
+
+a,
+button,
+input {
+    outline: medium none;
+    color: #686868;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+p {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 25px;
+    color: #454545;
+    margin-bottom: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.ptb-19 {
+    padding: 19px 0;
+}
+
+.header-area {
+    background-color: white !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+    color: #001232;
+    margin-top: 0px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.3;
+    margin-bottom: .5rem;
+}
+
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10 {
+    float: left;
+}
+
+.col-4,
+.col-8 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
+/*Start Offer product Area*/
+
+@media (min-width: 1200px) and (max-width: 1600px) {
+    .latest-product-area .container-fluid {
+        padding: 0 70px 0 0;
+    }
+}
+
+.bg-img {
+    background-position: center center;
+    background-size: cover;
+}
+
+.pb-145 {
+    padding-bottom: 145px;
+}
+
+.pt-205 {
+    padding-top: 205px;
+}
+
+.latest-product-img {
+    margin-left: 222px;
+    margin-right: -175px;
+}
+
+.owl-item.active .slider-animated-2 img {
+    -webkit-animation-delay: 1.3s;
+    animation-delay: 1.3s;
+    -webkit-animation-name: fadeInLeft;
+    animation-name: fadeInLeft;
+}
+
+.owl-carousel .animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+.latest-product-img>img {
+    width: 100%;
+}
+
+.latest-product-content {
+    padding-right: 27px;
+    text-align: right;
+}
+
+.owl-item.active .slider-animated-2 h2 {
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+    -webkit-animation-name: fadeInRight;
+    animation-name: fadeInRight;
+}
+
+.latest-product-content>h2 {
+    color: #e1e1e1;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 50px;
+    margin-bottom: 35px;
+}
+
+.owl-item.active .slider-animated-2 p {
+    -webkit-animation-delay: 1.1s;
+    animation-delay: 1.1s;
+    -webkit-animation-name: fadeInRight;
+    animation-name: fadeInRight;
+}
+
+.latest-product-content>p {
+    color: #ececec;
+    font-size: 15px;
+    font-weight: 300;
+    margin: 0 0 0 133px;
+}
+
+.owl-item.active .slider-animated-2 a {
+    -webkit-animation-delay: 1.3s;
+    animation-delay: 1.3s;
+    -webkit-animation-name: fadeInRight;
+    animation-name: fadeInRight;
+}
+
+.tab-content.jump>.tab-pane.active {
+    display: block;
+    height: auto;
+    opacity: 1;
+    overflow: visible;
+}
+
+.product-slider-active {
+    overflow: hidden;
+}
+
+.owl-carousel .owl-stage-outer {
+    position: relative;
+    overflow: hidden;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.owl-carousel .owl-item {
+    min-height: 1px;
+    float: left;
+    -webkit-touch-callout: none;
+}
+
+.product-slider-active .product-wrapper,
+.product-accessories-active .product-wrapper {
+    margin: 10px 5px 30px;
+}
+
+.product-wrapper {
+    position: relative;
+    box-shadow: 0 2px 8px 0.5px rgb(0 0 0 / 22%);
+    overflow: hidden;
+}
+
+.product-img {
+    position: relative;
+}
+
+.owl-carousel .owl-item img {
+    display: block;
+    width: 100%;
+}
+
+.owl-carousel .owl-item {
+    width: 376px;
+    margin-right: 20px;
+}
+
+.product-action {
+    bottom: 55px;
+    display: flex;
+    justify-content: center;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    transition: all 0.3s ease 0s;
+    z-index: 99;
+    padding: 10px;
+}
+
+.product-action a {
+    background-color: transparent;
+    color: #202020;
+    display: inline-flex;
+    height: 38px;
+    justify-content: center;
+    margin: 0 5.5px;
+    padding: 5px 10px 10px;
+    transition: all 0.3s ease 0s;
+    /* width: 50px; */
+    font-size: 18px;
+    border: 1px solid #e8e8e8;
+    position: relative;
+    box-shadow: 5px 5px 5px #000;
+}
+
+.product-wrapper {
+    position: relative;
+    box-shadow: 0 2px 8px 0.5px rgb(0 0 0 / 22%);
+    overflow: hidden;
+}
+
+.mb-35 {
+    margin-bottom: 35px;
+}
+
+.product-img {
+    position: relative;
+}
+
+.product-img img {
+    width: 100%;
+}
+
+.product-content-wrapper {
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    left: 0;
+    opacity: 1;
+    padding: 30px 40px 42px;
+    position: absolute;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+}
+
+.product-title-spreed>h4 {
+    color: #353535;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 7px;
+    font-family: "Oswald", sans-serif;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+    color: inherit;
+}
+
+h6 {
+    font-size: 16px !important;
+    font-weight: 440 !important;
+}
+
+.product-list-details {
+    display: none;
+}
+
+.product-list-details>h2 {
+    color: #353535;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.product-list-details>h2 a {
+    color: #353535;
+}
+
+.product-wrapper:hover .product-content-wrapper {
+    opacity: 0;
+    bottom: -30px;
+}
+
+.product-wrapper:hover .product-action {
+    bottom: 45px;
+    opacity: 1;
+}
+
+.product-action a:hover {
+    background-color: #ffb52f;
+    border: 1px solid #ffb52f;
+}
+
+
+/*End Offer product Area*/

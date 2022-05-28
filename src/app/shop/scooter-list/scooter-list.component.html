@@ -1,0 +1,481 @@
+<!--Start Page Information Area-->
+
+<div class="breadcrumb-area pt-130 pb-40" style="background-image: url(https://tvsnepal.com/assets/img/banner/banner-4.jpg)">
+    <div class="container-fluid">
+        <div class="breadcrumb-content text-center">
+            <h2 class="pointer">{{trgItem.Name}}</h2>
+            <ul>
+                <li>
+                    <a routerLink="/">home</a>
+                </li>
+                <li>
+                    <a routerLink="/Shop">shop</a>
+                </li>
+                <li class="pointer">
+                    {{trgItem.Name}}
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!--End Page Information Area-->
+
+<!--Start Overview Area-->
+
+
+<div class="product-details-area fluid-padding-3 ptb-130">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="product-details-content">
+                    <h2 class="text-center pointer">Concept</h2>
+                    <div class="product-overview">
+                        <div class="col-lg-6 pull-left">
+                            <img src="{{trgItem.Image}}" alt="{{trgItem.Name}}" title="{{trgItem.Name}}" style="width: 100%;">
+                            <p class="text-center pt-30">
+                                <b>Price:</b> Rs. {{trgItem.Price}}
+                            </p>
+                        </div>
+                        <div class="col-lg-6 pull-left">
+                            <h5 class="pd-sub-title">
+                                {{trgItem.Name}}
+                            </h5>
+                            <p>{{trgItem.Concept}}</p>
+                        </div>
+                        <div style="clear: both;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--End Overview Area-->
+
+<!--Start Feature Desktop Area-->
+
+<div class="product-details-area fluid-padding-3 ptb-130" style="background-color: #f7f7f7;">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="product-details-content">
+                    <h2 class="text-center pointer">Features</h2>
+                    <div class="product-overview">
+                        <!-- Start Features -->
+                        <div class=" col-lg-12">
+                            <div class="product-details-img-content">
+                                <div class="product-details-tab mr-40">
+                                    <div class="product-details-small-feature nav mt-12 mb-4">
+                                        <div class="col-lg-3 active" id="name1-tab" data-bs-toggle="tab" href="#feature1" role="tab" aria-controls="name1" aria-selected="true" style="text-align: center; padding: 20px 0px;">
+                                            <a>
+                                                {{BikeFeatures.Name}}
+                                                    </a>
+                                        </div>
+                                        <div class="col-lg-3" id="name2-tab" data-bs-toggle="tab" href="#feature2" role="tab" aria-controls="name2" aria-selected="false" style="text-align: center; padding: 20px 0px;">
+                                            <a class="">
+                                                {{BikeFeatures.Name}}
+                                                    </a>
+                                        </div>
+                                        <div class="col-lg-3" id="name3-tab" data-bs-toggle="tab" href="#feature3" role="tab" aria-controls="name3" aria-selected="false" style="text-align: center; padding: 20px 0px;">
+                                            <a class="">
+                                                {{BikeFeatures.Name}}
+                                                    </a>
+                                        </div>
+                                        <div class="col-lg-3" id="name4-tab" data-bs-toggle="tab" href="#feature4" role="tab" aria-controls="name4" aria-selected="false" style="text-align: center; padding: 20px 0px;">
+                                            <a class="">
+                                                {{BikeFeatures.Name}}
+                                                    </a>
+                                        </div>
+                                    </div>
+                                    <div class="product-details-large-feature tab-content">
+                                        <div class="tab-pane active" id="feature1" role="tabpanel" aria-labelledby="name1-tab">
+                                            <div class="row">
+                                                <div class="col-lg-4 pull-left mobile-displat-none">
+                                                    <img src="{{BikeFeatures.Image}}" alt="{{BikeFeatures.Name}}" title="{{BikeFeatures.Name}}" style="width: 100%;">
+                                                </div>
+                                                <div class="col-lg-8 pull-left">
+                                                    <div>{{BikeFeatures.p}}</div>
+                                                    <p>{{BikeFeatures.content}}
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane active" id="feature2" role="tabpanel" aria-labelledby="name2-tab">
+                                            <div class="row">
+                                                <div class="col-lg-4 pull-left mobile-displat-none">
+                                                    <img src="{{BikeFeatures.Image1}}" alt="{{BikeFeatures.Name1}}" title="{{BikeFeatures.Name1}}" style="width: 100%;">
+                                                </div>
+                                                <div class="col-lg-8 pull-left">
+                                                    <p>{{BikeFeatures.content1}}
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane" id="feature3" role="tabpanel" aria-labelledby="name3-tab">
+                                            <div class="row">
+                                                <div class="col-lg-4 pull-left mobile-displat-none">
+                                                    <img src="{{BikeFeatures.Image2}}" alt="{{BikeFeatures.Name2}}" title="{{BikeFeatures.Name2}}" style="width: 100%;">
+                                                </div>
+                                                <div class="col-lg-8 pull-left">
+                                                    <p>{{BikeFeatures.content2}}
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane" id="feature4" role="tabpanel" aria-labelledby="name4-tab">
+                                            <div class="row">
+                                                <div class="col-lg-4 pull-left mobile-displat-none">
+                                                    <img src="{{BikeFeatures.Image3}}" alt="{{BikeFeatures.Name3}}" title="{{BikeFeatures.Name3}}" style="width: 100%;">
+                                                </div>
+                                                <div class="col-lg-8 pull-left">
+                                                    <p>{{BikeFeatures.content3}}
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--End Feature Desktop Area-->
+
+<!--Start Color Area-->
+
+<div class="product-details-area fluid-padding-3 ptb-130" style="background-image: url('https://tvsnepal.com/images/color-bg.jpg');">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="product-details-content">
+                    <h2 class="text-center">Colours</h2>
+                    <div class="product-overview">
+                        <div style="clear: both;"></div>
+                        <!-- Start Color-->
+                        <div class="col-lg-12">
+                            <div class="product-details-img-content">
+                                <div class="product-details-tab mr-40">
+                                    <div class="product-details-large-color tab-content">
+                                        <div class="tab-pane text-center active" id="color_id_1" role="tabpanel" aria-labelledby="color-tab1">
+                                            <div class="col-md-6 pull-left">
+                                                <img src="{{AllColors.Image1}}" alt="{{AllColors.p1}} - {{trgItem.Name}}" title="{{AllColors.p1}} - {{trgItem.Name}}" style="width: 100%;">
+                                            </div>
+                                            <div style="clear: both;"></div>
+                                        </div>
+                                        <div class="tab-pane text-center" id="color_id_2" role="tabpanel" aria-labelledby="color-tab2">
+                                            <div class="col-md-6 pull-left">
+                                                <img src="{{AllColors.Image2}}" alt="{{AllColors.p2}} - {{trgItem.Name}}" title="{{AllColors.p2}} - {{trgItem.Name}}" style="width: 100%;">
+                                            </div>
+                                            <div style="clear: both;"></div>
+                                        </div>
+                                        <div class="tab-pane text-center" id="color_id_3" role="tabpanel" aria-labelledby="color-tab3">
+                                            <div class="col-md-6 pull-left">
+                                                <img src="{{AllColors.Image3}}" alt="{{AllColors.p3}} - {{trgItem.Name}}" title="{{AllColors.p3}} - {{trgItem.Name}}" style="width: 100%;">
+                                            </div>
+                                            <div style="clear: both;"></div>
+                                        </div>
+                                        <div class="tab-pane text-center" id="color_id_4" role="tabpanel" aria-labelledby="color-tab4">
+                                            <div class="col-md-6 pull-left">
+                                                <img src="{{AllColors.Image4}}" alt="{{AllColors.p4}} - {{trgItem.Name}}" title="{{AllColors.p4}} - {{trgItem.Name}}" style="width: 100%;">
+                                            </div>
+                                            <div style="clear: both;"></div>
+                                        </div>
+                                        <div class="tab-pane text-center" id="color_id_5" role="tabpanel" aria-labelledby="color-tab5">
+                                            <div class="col-md-6 pull-left">
+                                                <img src="{{AllColors.Image5}}" alt="{{AllColors.p5}} - {{trgItem.Name}}" title="{{AllColors.p5}} - {{trgItem.Name}}" style="width: 100%;">
+                                            </div>
+                                            <div style="clear: both;"></div>
+                                        </div>
+                                    </div>
+                                    <div class="product-details-small-color nav mt-12">
+                                        <div class="col-lg-2 text-center active" id="color-tab1" data-bs-toggle="tab" href="#color_id_1" role="tab" aria-controls="color1" aria-selected="true">
+                                            <div [style]="AllColors.borderStyle1">
+                                                <a>
+                                                    <div [style]="AllColors.style1"></div>
+                                                </a>
+                                            </div>
+                                            <p class="pointer">{{AllColors.p1}}</p>
+                                        </div>
+                                        <div class="col-lg-2 text-center" id="color-tab2" data-bs-toggle="tab" href="#color_id_2" role="tab" aria-controls="color2" aria-selected="false">
+                                            <div [style]="AllColors.borderStyle2">
+                                                <a>
+                                                    <div [style]="AllColors.style2"></div>
+                                                </a>
+                                            </div>
+                                            <p class="pointer">{{AllColors.p2}}</p>
+                                        </div>
+                                        <div class="col-lg-2 text-center" id="color-tab3" data-bs-toggle="tab" href="#color_id_3" role="tab" aria-controls="color3" aria-selected="false">
+                                            <div [style]="AllColors.borderStyle3">
+                                                <a>
+                                                    <div [style]="AllColors.style3"></div>
+                                                </a>
+                                            </div>
+                                            <p class="pointer">{{AllColors.p3}}</p>
+                                        </div>
+                                        <div class="col-lg-2 text-center" id="color-tab4" data-bs-toggle="tab" href="#color_id_4" role="tab" aria-controls="color4" aria-selected="false">
+                                            <div [style]="AllColors.borderStyle4">
+                                                <a>
+                                                    <div [style]="AllColors.style4"></div>
+                                                </a>
+                                            </div>
+                                            <p class="pointer">{{AllColors.p4}}</p>
+                                        </div>
+                                        <div class="col-lg-2 text-center" id="color-tab5" data-bs-toggle="tab" href="#color_id_5" role="tab" aria-controls="color5" aria-selected="false">
+                                            <div [style]="AllColors.borderStyle5">
+                                                <a>
+                                                    <div [style]="AllColors.style5"></div>
+                                                </a>
+                                            </div>
+                                            <p class="pointer">{{AllColors.p5}}</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--End Color Area-->
+
+<!--Start Product Details Area-->
+
+<div class="product-details-area fluid-padding-3 ptb-130 mobile-display-none" style="background-color: #f7f7f7;">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="product-details-content">
+                    <h2 class="text-center pointer">TECH SPECS</h2>
+                    <div class="product-overview">
+                        <!-- Start Features -->
+                        <div class="col-lg-12">
+                            <div class="product-details-img-content">
+                                <div class="product-details-tab mr-40">
+                                    <div class="product-details-small-feature nav mt-12 mb-4 text-center">
+                                        <div class="col-lg-3 active" id="engine-tab" data-bs-toggle="tab" href="#tech_spec1" role="tab" aria-controls="engines" aria-selected="true" style="text-align: center; padding: 20px 0px;">
+                                            <a>
+                                                        Engine & Performance
+                                                    </a>
+                                        </div>
+                                        <div class="col-lg-3" id="chasis-tab" data-bs-toggle="tab" href="#tech_spec2" role="tab" aria-controls="chasis" aria-selected="false" style="text-align: center; padding: 20px 0px;">
+                                            <a class="">
+                                                        Chasis, Suspension & Electrical
+                                                    </a>
+                                        </div>
+                                        <div class="col-lg-3" id="wheel-tab" data-bs-toggle="tab" href="#tech_spec3" role="tab" aria-controls="wheel" aria-selected="false" style="text-align: center; padding: 20px 0px;">
+                                            <a class="">
+                                                        Wheel, Tyre & Brake
+                                                    </a>
+                                        </div>
+                                        <div class="col-lg-3" id="dimension-tab" data-bs-toggle="tab" href="#tech_spec4" role="tab" aria-controls="dimension" aria-selected="false" style="text-align: center; padding: 20px 0px;">
+                                            <a class="">
+                                                        Dimension, Wight & Fuel Tank Capacity
+                                                    </a>
+                                        </div>
+                                    </div>
+                                    <div class="product-details-large tab-content" style="margin-bottom: 20px;">
+                                        <div class="tab-pane active" id="tech_spec1" role="tabpanel" aria-labelledby="engine-tab">
+                                            <div class="row">
+                                                <div class="col-lg-4 pull-left">
+                                                    <img src="https://tvsnepal.com/images/product/Engine-&-Performance60c206945a5c7apache-rtr-speci05.jpg" alt="Engine & Performance" title="Engine & Performance" style="width: 100%;">
+                                                </div>
+                                                <div class="col-lg-8 pull-left tech-specs">
+                                                    <p>
+                                                        <b>Type&nbsp;</b>{{EP.Type}}
+                                                    </p>
+                                                    <p>
+                                                        <b>Engine Capacity&nbsp;</b>{{EP.EngineCapacity}}
+                                                    </p>
+                                                    <p>
+                                                        <b>Maximum Power&nbsp;</b>{{EP.MaximumPower}}
+                                                    </p>
+                                                    <p>
+                                                        <b>Fuel Injection &nbsp;</b>{{EP.FuelInjection}}
+                                                    </p>
+                                                    <p>
+                                                        <b>Max. Torque (Nm @ rpm)&nbsp;</b> {{EP.MaxTorque}}
+                                                    </p>
+                                                    <p>
+                                                        <b>Starting&nbsp;</b>{{EP.Starting}}
+                                                    </p>
+                                                    <p>
+                                                        <b>Power to Weight Ratio &nbsp;</b>{{EP.PowerWightRatio}}
+                                                    </p>
+                                                    <p>
+                                                        <b>Gear Box&nbsp;</b>{{EP.GearBox}}
+                                                    </p>
+                                                    <p>
+                                                        <b>Clutch&nbsp;</b>{{EP.Clutch}}
+                                                    </p>
+                                                    <p>
+                                                        <b>Top Speed&nbsp;</b> &nbsp;{{EP.MaxSpeed}}
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane" id="tech_spec2" role="tabpanel" aria-labelledby="chsis-tab">
+                                            <div class="row">
+                                                <div class="col-lg-4 pull-left">
+                                                    <img src="https://tvsnepal.com/images/product/Engine-&-Performance60c206945a5c7apache-rtr-speci05.jpg" alt="Chasis, Suspension & Electrical" title="Chasis, Suspension & Electrical" style="width: 100%;">
+                                                </div>
+                                                <div class="col-lg-8 pull-left tech-specs">
+                                                    <p>
+                                                        <b>Frame &nbsp;</b>{{CSE.Frame}}
+                                                    </p>
+                                                    <p>
+                                                        <b>Front Suspension &nbsp;</b>{{CSE.FrontSuspension}}
+                                                    </p>
+                                                    <p>
+                                                        <b>Rear Suspension &nbsp;</b>{{CSE.RearSuspension}}
+                                                    </p>
+                                                    <p>
+                                                        <b>Battery &nbsp;</b>{{CSE.Battery}}&nbsp;
+                                                    </p>
+                                                    <p>
+                                                        <b>Headlamp&nbsp;</b>{{CSE.Headlamp}}
+                                                    </p>
+                                                    <p>
+                                                        <b>Taillamp &nbsp;</b>{{CSE.Taillamp}}
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane" id="tech_spec3" role="tabpanel" aria-labelledby="wheel-tab">
+                                            <div class="row">
+                                                <div class="col-lg-4 pull-left">
+                                                    <img src="https://tvsnepal.com/images/product/Engine-&-Performance60c206945a5c7apache-rtr-speci05.jpg" alt="Wheel, Tyre & Brake" title="Wheel, Tyre & Brake" style="width: 100%;">
+                                                </div>
+                                                <div class="col-lg-8 pull-left tech-specs">
+                                                    <p>
+                                                        <b>Rim (front)&nbsp;</b>{{WTB.FrontRim}}
+                                                    </p>
+                                                    <p>
+                                                        <b>Rim (rear) Drum &nbsp;</b>{{WTB.RearRimDrum}}
+                                                    </p>
+                                                    <p>
+                                                        <b>Tyre (front)&nbsp;</b>{{WTB.FrontTyre}}
+                                                    </p>
+                                                    <p>
+                                                        <b>Tyre (rear) &nbsp;</b>{{WTB.RearTyre}}
+                                                    </p>
+                                                    <p>
+                                                        <b>Brake Fluid &nbsp;</b>{{WTB.BrakeFluid}}
+                                                    </p>
+                                                    <p>
+                                                        <b>Front &nbsp;</b>{{WTB.Front}}
+                                                    </p>
+                                                    <p>
+                                                        <b>Rear &nbsp;</b>{{WTB.Rear}}
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane" id="tech_spec4" role="tabpanel" aria-labelledby="dimension-tab">
+                                            <div class="row">
+                                                <div class="col-lg-4 pull-left">
+                                                    <img src="https://tvsnepal.com/images/product/Engine-&-Performance60c206945a5c7apache-rtr-speci05.jpg" alt="Dimension, Wight & Fuel Tank Capacity" title="Dimension, Wight & Fuel Tank Capacity" style="width: 100%;">
+                                                </div>
+                                                <div class="col-lg-8 pull-left tech-specs">
+                                                    <p>
+                                                        <b>Fuel Tank Capacity Full&nbsp;</b>{{DWFTC.FuelTankCapacity}}
+                                                    </p>
+                                                    <p>
+                                                        <b>Ground Clearance&nbsp;</b>{{DWFTC.GroundClearance}}
+                                                    </p>
+                                                    <p>
+                                                        <b>Height&nbsp;</b>{{DWFTC.Height}}
+                                                    </p>
+                                                    <p>
+                                                        <b>Length&nbsp;</b>{{DWFTC.Length}}
+                                                    </p>
+                                                    <p>
+                                                        <b>Width &nbsp;</b>{{DWFTC.Width}}
+                                                    </p>
+                                                    <p>
+                                                        <b>Kerb Weight&nbsp;</b>{{DWFTC.KerbWeight}}
+                                                    </p>
+                                                    <p>
+                                                        <b>Saddle Height &nbsp;</b>{{DWFTC.Saddle}}
+                                                    </p>
+                                                    <p>
+                                                        <b>Wheelbase&nbsp;</b>6&nbsp;{{DWFTC.Wheelbase}}
+                                                    </p>
+                                                    <p>
+                                                        <b>Max payload&nbsp;</b>{{DWFTC.MaxPayload}}
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a routerLink="/Error" class="pointer">
+                                        <button type="button" style="padding: 10px 10px; background-color: #193783; color: white; border: #CCC solid; cursor: pointer;">DOWNLOAD BROCHURE
+                                                    <i class="fa fa-download"></i>
+                                                </button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--End  Product Details Area-->
+
+<!-- Start Display Side Pane Area-->
+
+<div class="modile-display-none" style="position: fixed; top: 25%; right: 0px; z-index: 2;">
+    <a routerLink="/">
+        <button type="button" style="padding: 10px 10px; background-color: #50b2fc; color: white; cursor: pointer; border: none; border-radius: 5px; width: 120px;">
+                    <i class="fa fa-download">
+                    </i>
+                    Book Now
+                </button>
+    </a>
+    <div style="clear: both; margin-bottom: 2px;"></div>
+    <a routerLink="/">
+        <button type="button" style="padding: 10px 10px; background-color: #ed6663; color: white; cursor: pointer; border: none; border-radius: 5px; width: 120px;">
+                    <i class="fa fa-money">
+                    </i>
+                    Finance
+                </button>
+    </a>
+    <div style="clear: both; margin-bottom: 2px;"></div>
+    <a routerLink="/">
+        <button type="button" style="padding: 10px 10px; background-color: #3e6274; color: white; cursor: pointer; border: none; border-radius: 5px; width: 120px;">
+                    <i class="fa fa-motorcycle">
+                    </i>
+                    Test Ride
+                </button>
+    </a>
+    <div style="clear: both; margin-bottom: 2px;"></div>
+    <a routerLink="/">
+        <button type="button" style="padding: 10px 10px; background-color: #50b2fc; color: white; cursor: pointer; border: none; border-radius: 5px; width: 120px;">
+                    <i class="fa fa-exchange">
+                    </i>
+                    Exchange
+                </button>
+    </a>
+    <div style="clear: both; margin-bottom: 2px;"></div>
+    <a routerLink="/">
+        <button type="button" style="padding: 10px 10px; background-color: #ed6663; color: white; cursor: pointer; border: none; border-radius: 5px; width: 120px;">
+                    <i class="fa fa-gift">
+                    </i>
+                    Apply for Offer
+                </button>
+    </a>
+    <div style="clear: both; margin-bottom: 2px;"></div>
+</div>
+
+<!-- End Display Side Pane Area-->

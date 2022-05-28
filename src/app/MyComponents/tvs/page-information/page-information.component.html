@@ -1,0 +1,46 @@
+<!--Start Page Information-->
+
+<div class="breadcrumb-area pt-130 pb-40" style="background-image: url(https://tvsnepal.com/assets/img/banner/banner-4.jpg)">
+    <div class="container-fluid">
+        <div class="breadcrumb-content text-center">
+            <h2>{{trgItem.Name}}</h2>
+            <ul>
+                <li>
+                    <a routerLink="/">home</a>
+                </li>
+                <li><b class="pointer">{{trgItem.Name}}</b></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!--End Page Information-->
+
+<!--Start Page Details-->
+
+<div class="blog-area pt-120 pb-50">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-lg-4 col-md-6" *ngFor="let blogList of BlogList">
+                <div class="blog-hm-wrapper mb-40">
+                    <div class="blog-img">
+                        <a href="blogs/tvs-ntorq-125-crosses-sales-milestone-of-50,000-units-in-nepal">
+                            <img src="{{blogList.Image}}" alt="{{blogList.Name}}" title="{{blogList.Name}}">
+                        </a>
+                        <div class="blog-date">
+                            <h4>{{blogList.Date}}</h4>
+                        </div>
+                    </div>
+                    <div class="blog-hm-content">
+                        <h3><i class="fa fa-angle-double-right"></i> <a href="blogs/tvs-ntorq-125-crosses-sales-milestone-of-50,000-units-in-nepal">{{blogList.Name}}</a></h3>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+<!--End Page Details-->

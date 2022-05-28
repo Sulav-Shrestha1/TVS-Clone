@@ -1,0 +1,308 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: #303030;
+}
+
+::selection {
+    background: #4fc1f0;
+    color: #fff;
+    text-shadow: none;
+}
+
+a,
+button,
+input {
+    outline: medium none;
+    color: #686868;
+    text-decoration: none !important;
+}
+
+a {
+    cursor: pointer !important;
+}
+
+.ptb-19 {
+    padding: 19px 0;
+}
+
+.header-area {
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+    transition: all 0.7s ease 0s;
+}
+
+.white-bar {
+    background-color: white !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+    color: #001232;
+    margin-top: 0px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.3;
+    margin-bottom: .5rem;
+}
+
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10 {
+    float: left;
+}
+
+.col-4,
+.col-8 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.header-contact-menu-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pl-45 {
+    padding-left: 45px;
+}
+
+.logo,
+.language-currency,
+.menu-wrapper,
+.header-site-icon,
+.sticky-logo {
+    transition: all 0.7s ease 0s;
+}
+
+
+/*Start Footer*/
+
+.pull-left {
+    float: left;
+}
+
+footer {
+    position: relative;
+}
+
+.theme-bg {
+    background: #001232;
+}
+
+.pb-50 {
+    padding-bottom: 50px;
+}
+
+.pt-100 {
+    padding-top: 100px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.footer-logo {
+    margin-bottom: 30px;
+}
+
+.footer-about>p,
+.single-tweet>p {
+    color: #919191;
+    font-weight: 300;
+    margin: 0;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.footer-about>p a {
+    padding-left: 28px;
+}
+
+.footer-widget-title>h3 {
+    color: #e4e4e4;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0 0 26px;
+}
+
+.pl-60 {
+    padding-left: 60px;
+}
+
+ul {
+    margin: 0px;
+    padding-left: 0px;
+}
+
+.quick-links ul li {
+    padding-bottom: 14px;
+    padding-left: 26px;
+    position: relative;
+}
+
+li {
+    list-style: none;
+}
+
+.quick-links ul li {
+    padding-bottom: 14px;
+    padding-left: 26px;
+    position: relative;
+}
+
+li {
+    list-style: none;
+}
+
+.quick-links ul li a {
+    color: #919191;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.quick-links ul li:hover a,
+.single-tweet>p a:hover,
+.food-info-content>a:hover {
+    color: #ffb52f;
+}
+
+.quick-links ul li:hover::before {
+    background: #ffb52f none repeat scroll 0 0;
+}
+
+.quick-links ul li::before {
+    background: #51555d none repeat scroll 0 0;
+    content: "";
+    height: 10px;
+    left: 0;
+    position: absolute;
+    top: 9.5px;
+    width: 10px;
+    /* z-index: 999; */
+    transition: all .3s ease 0s;
+}
+
+.footer-widget-title>h3 {
+    color: #e4e4e4;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0 0 26px;
+}
+
+.pr-30 {
+    padding-right: 30px;
+}
+
+.single-tweet {
+    margin-bottom: 18px;
+}
+
+p {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 32px;
+    color: #454545;
+    margin-bottom: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.single-tweet>p a {
+    color: #a7a7a7;
+    font-size: 15px;
+    font-weight: 600;
+    padding-left: 4px;
+}
+
+b,
+strong {
+    font-weight: bolder;
+}
+
+.single-tweet:last-child {
+    margin-bottom: 0px;
+}
+
+.food-address {
+    margin-bottom: 17px;
+}
+
+.black-bg {
+    background: #061124;
+}
+
+.food-info-title>span {
+    color: #a7a7a7;
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 1px;
+}
+
+.food-info-content>p {
+    color: #919191;
+    font-size: 17px;
+    font-weight: 300;
+    margin: 0;
+}
+
+.food-info-content>a {
+    color: #919191;
+    display: block;
+    font-size: 17px;
+}
+
+.ptb-15 {
+    padding: 15px 0;
+}
+
+.copyright>p {
+    color: #919191;
+    line-height: 22px;
+    margin: 0;
+    letter-spacing: 0.03em;
+    font-size: 16px;
+}
+
+
+/* Scroll UP */
+
+#scrollUp {
+    background: #ffb52f none repeat scroll 0 0;
+    bottom: 0px;
+    color: #ffffff;
+    cursor: pointer;
+    display: none;
+    font-size: 20px;
+    height: 40px;
+    line-height: 40px;
+    position: fixed;
+    right: 12px;
+    text-align: center;
+    width: 38px;
+    z-index: 9999;
+}
+
+#scrollUp:hover {
+    background: #333 none repeat scroll 0 0;
+}

@@ -1,0 +1,310 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: #303030;
+}
+
+::selection {
+    background: #4fc1f0;
+    color: #fff;
+    text-shadow: none;
+}
+
+a,
+button,
+input {
+    outline: medium none;
+    color: #686868;
+    text-decoration: none !important;
+}
+
+.ptb-19 {
+    padding: 19px 0;
+}
+
+.header-area {
+    background-color: white !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+    color: #001232;
+    margin-top: 0px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.3;
+    margin-bottom: .5rem;
+}
+
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10 {
+    float: left;
+}
+
+.col-4,
+.col-8 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
+/*Start Page Details*/
+
+.pb-40 {
+    padding-bottom: 40px;
+}
+
+.pt-130 {
+    padding-top: 130px;
+}
+
+.container-fluid .breadcrumb-content.text-center h2 {
+    cursor: pointer !important;
+}
+
+.breadcrumb-content>h2 {
+    color: #fff;
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 18px;
+    text-transform: uppercase;
+}
+
+.breadcrumb-content li a::after {
+    background-color: #fff;
+    content: "";
+    height: 2px;
+    position: absolute;
+    right: 1px;
+    top: 11px;
+    transform: rotate( -71deg);
+    width: 12px;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container-fluid .breadcrumb-content.text-center ul li {
+    cursor: pointer !important;
+}
+
+.breadcrumb-content li {
+    color: #fff;
+    display: inline-block;
+    font-size: 15px;
+    letter-spacing: 0.1px;
+    text-transform: uppercase;
+}
+
+.breadcrumb-content li a {
+    color: #fff;
+    padding-right: 20px;
+    position: relative;
+    text-decoration: none;
+}
+
+
+/* Career Area*/
+
+.ptb-130 {
+    padding: 130px 0;
+}
+
+.container-fluid {
+    padding-right: 100px !important;
+    padding-left: 100px !important;
+}
+
+.pt-120 {
+    padding-top: 120px;
+}
+
+.mb-60 {
+    margin-bottom: 60px;
+}
+
+.mb-40 {
+    margin-bottom: 40px;
+}
+
+.pb-50 {
+    padding-bottom: 50px;
+}
+
+.product-details-content h2 {
+    color: #353535;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.product-overview {
+    margin: 30px 0;
+}
+
+#myBtn {
+    font-size: 20px;
+    padding: 10px 20px;
+    color: black;
+    margin-top: 30px;
+}
+
+.col-lg-9 .col-md-4 {
+    box-sizing: border-box;
+    position: relative;
+    width: 284.325px;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    -webkit-box-flex: 0;
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+    color: #5f5f5f;
+    font-family: Ubuntu, lato, Helvetica, Arial, sans-serif;
+    font-size: 13px;
+}
+
+.job-details-sidebar {
+    box-sizing: border-box;
+    padding: 3em 2em;
+    background: #fafafa;
+    height: 624.8px;
+}
+
+.card-header {
+    box-sizing: border-box;
+    margin-bottom: 0px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
+    font-size: 13px;
+    padding: 0.5rem !important;
+    background-color: rgba(0, 0, 0, .03);
+}
+
+.mb-1 {
+    box-sizing: border-box;
+    margin-top: 0px;
+    font-weight: 500;
+    line-height: 1.2;
+    font-size: 0.8125rem;
+    margin-bottom: 0.25rem !important;
+    display: inline !important;
+    text-align: justify;
+}
+
+.job-details-sidebar .card-body {
+    box-sizing: border-box;
+    width: 688px;
+    overflow-x: auto;
+    flex: 1 1 auto;
+    color: #212529;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
+    padding: 0px !important;
+    text-align: justify;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 688px;
+    margin: 0px !important;
+}
+
+td {
+    box-sizing: border-box;
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+
+.card-header,
+.p-2 {
+    box-sizing: border-box !important;
+    margin-bottom: 0px !important;
+    color: #000000;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125) !important;
+    padding: 0.5rem !important;
+}
+
+.mb-1 h6 {
+    box-sizing: border-box;
+    margin-top: 0px;
+    margin-bottom: 0.25rem !important;
+    font-weight: 500 !important;
+    line-height: 1.2 !important;
+}
+
+.card-body .p-0 {
+    box-sizing: border-box;
+    width: 688px;
+    overflow-x: auto;
+    flex: 1 1 auto;
+    padding: 0px !important;
+}
+
+.col-md-8 {
+    box-sizing: border-box;
+    position: relative !important;
+    width: 568.662px !important;
+    min-height: 1px;
+    padding-right: 15px !important;
+    padding-left: 15px !important;
+    -webkit-box-flex: 0;
+    flex: 0 0 66.6667% !important;
+    max-width: 66.6667% !important;
+    color: #5f5f5f;
+    font-family: Ubuntu, lato, Helvetica, Arial, sans-serif;
+    font-size: 13px;
+}
+
+.jobsearch-description li {
+    box-sizing: border-box;
+    list-style: disc;
+    margin: 0px 0px 0px -20px;
+    padding: 0px;
+}
+
+.jobsearch-description p {
+    box-sizing: border-box;
+    margin: 0px 0px 13.5px;
+    text-align: justify;
+}
+
+.single-job-title {
+    box-sizing: border-box;
+    margin-top: 0px;
+    margin-bottom: 0.5rem;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.2;
+    color: inherit;
+    font-size: 1.25rem;
+    text-align: justify;
+}
+
+span {
+    color: #5f5f5f;
+}
+
+
+/*End Page Details*/

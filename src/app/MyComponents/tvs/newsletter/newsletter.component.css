@@ -1,0 +1,171 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: #303030;
+}
+
+::selection {
+    background: #4fc1f0;
+    color: #fff;
+    text-shadow: none;
+}
+
+a,
+button,
+input {
+    outline: medium none;
+    color: #686868;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+p {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 25px;
+    color: #454545;
+    margin-bottom: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.ptb-19 {
+    padding: 19px 0;
+}
+
+.header-area {
+    background-color: white !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+    color: #001232;
+    margin-top: 0px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.3;
+    margin-bottom: .5rem;
+}
+
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10 {
+    float: left;
+}
+
+.col-4,
+.col-8 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
+/*Start Newsletter Area*/
+
+.newsletter-wrapper-all {
+    margin-bottom: -84px;
+    position: relative;
+    z-index: 9;
+}
+
+.theme-bg-2 {
+    background: #ffb52f;
+}
+
+.newsletter-img {
+    padding: 7px 0;
+}
+
+.newsletter-img>img {
+    margin-left: 45px;
+    margin-top: -67px;
+}
+
+.newsletter-wrapper {
+    padding: 37px 154px 44px 110px;
+}
+
+.newsletter-title>h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 13px;
+}
+
+.subscribe-form form {
+    position: relative;
+    transition: all 0.3s ease 0s;
+}
+
+.subscribe-form form input {
+    background: transparent none repeat scroll 0 0;
+    border: 1px solid #876830;
+    color: #001232;
+    font-size: 14px;
+    height: 45px;
+    padding-left: 24px;
+    padding-right: 190px;
+}
+
+#mc_embed_signup_scroll .email {
+    cursor: auto;
+}
+
+.mc-form .mc-news {
+    left: -5000px;
+    position: absolute;
+}
+
+.subscribe-form .mc-form .clear {
+    background-color: #001232;
+    bottom: 0;
+    cursor: pointer;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    transition: all 0.3s ease 0s;
+    z-index: 999;
+}
+
+.subscribe-form .mc-form .clear i {
+    color: #fff;
+    font-size: 20px;
+    left: 36px;
+    position: relative;
+    top: 2px;
+    transition: all 0.3s ease 0s;
+}
+
+.subscribe-form .mc-form .clear:hover {
+    background-color: #fff;
+}
+
+.subscribe-form .mc-form .clear:hover i {
+    color: #001232;
+}
+
+.subscribe-form .clear input {
+    border: medium none;
+    padding: 0;
+    text-indent: -99999px;
+    transition: all 0.3s ease 0s;
+    width: 77px;
+}
+
+
+/*End Newsletter Area*/

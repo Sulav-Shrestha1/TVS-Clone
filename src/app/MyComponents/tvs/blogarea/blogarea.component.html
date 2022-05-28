@@ -1,0 +1,40 @@
+<!--Start Blog Area-->
+
+<div class="blog-area pt-50 pb-110" style="padding-bottom: 110px;">
+    <div class="container">
+        <div class="section-title text-center mb-60">
+            <h2>TVS BLOG</h2>
+            <p>
+                Check our blog. Get tips and tricks on safety riding along with maintaining your bike.
+            </p>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6" *ngFor="let blogList of blogs | slice: 0:3">
+                <div class="blog-hm-wrapper mb-40">
+                    <div class="blog-img">
+                        <a routerLink="/BlogList/{{blogList.ID}}">
+                            <img src="{{blogList.Image}}" alt="{{blogList.Name}}" title="{{blogList.Name}}">
+                        </a>
+                        <div class="blog-date">
+                            <h4>{{blogList.Date}}</h4>
+                        </div>
+                        <div class="blog-hm-content">
+                            <h3>
+                                <i class="fa fa-angle-double-right">
+                                        </i>
+                                <a routerLink="/BlogList/{{blogList.ID}}">{{blogList.Name}}</a>
+                            </h3>
+                            <p>{{blogList.content}}</p>
+                            <p style="margin-top: 10px;">
+                                <i class="fa fa-angle-double-right"></i>
+                                <a routerLink="/BlogList/{{blogList.ID}}" style="color: #193783;">READ MORE</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--End BLog Area-->

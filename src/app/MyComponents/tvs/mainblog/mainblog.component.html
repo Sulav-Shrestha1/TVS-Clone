@@ -1,0 +1,24 @@
+<!--Start BLog Area-->
+
+<div class="blog-area pt-110 pb-50 text-white" style="background-image: url(https://tvsnepal.com/assets/img/banner/banner-4.jpg);">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-lg-4 col-md-6 pull-left" *ngFor="let blog of blog">
+                <div class="blog-hm-wrapper mb-40">
+
+                    <div class="blog-hm-content text-justify class-aog">
+                        <a routerLink="/PageInformation/{{blog.ID}}">
+                            <h3 class="text-center">{{blog.Name}}</h3>
+                            <img src="{{blog.Image}}" style="width: 100%; margin-bottom: 20px;">
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+            <div style="clear: both;"></div>
+        </div>
+    </div>
+</div>
+
+<!--End Blog Area-->

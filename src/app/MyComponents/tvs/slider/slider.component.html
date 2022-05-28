@@ -1,0 +1,27 @@
+<!--Start Slider Area-->
+
+<div class="slider-area">
+    <div class="slider-active owl-carousel owl-loaded owl-drag">
+        <div class="owl-stage-outer">
+            <div class="owl-stage">
+                <owl-carousel-o [options]="customOptions">
+                    <ng-template carouselSlide *ngFor="let imageList of images">
+                        <div class="owl-item" style="width: 1690px;">
+                            <div class="single-slider slider-1" style="background-image: url(https://tvsnepal.com/images/slider/slider-bg.jpg)">
+                                <div class="container">
+                                    <div class="slider-content slider-animated-1">
+                                        <div class="slider-img">
+                                            <img class="animated" src="{{imageList.Image}}" alt="{{imageList.Name}}" title="{{imageList.Name}}">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </ng-template>
+                </owl-carousel-o>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--End Slider Area-->

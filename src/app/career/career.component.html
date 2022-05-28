@@ -1,0 +1,55 @@
+<!--Start Page Information Area-->
+
+<div class="breadcrumb-area pt-130 pb-40" style="background-image: url(https://tvsnepal.com/assets/img/banner/banner-4.jpg)">
+    <div class="container-fluid">
+        <div class="breadcrumb-content text-center">
+            <h2>Career</h2>
+            <ul>
+                <li>
+                    <a href="#">home</a>
+                </li>
+                <li class="pointer">
+                    Career
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!--End Page Information Area-->
+
+<!--Start Career Area-->
+
+<div class="blog-area pt-120 pb-50">
+    <div class="container">
+        <div class="row" *ngFor="let CarrerList of careers">
+            <div class="col-lg-4 col-md-6">
+                <div class="blog-hm-wrapper mb-40">
+                    <div class="blog-img">
+                        <a routerLink="/CarrerList">
+                            <img src="{{CarrerList.careerImg}}" alt="{{CarrerList.Name}}" title="{{CarrerList.Name}}">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-8 col-md-8">
+                <div class="blog-hm-wrapper mb-40">
+                    <div class="blog-hm-content">
+                        <h3>
+                            <a routerLink="/CareerMyCareer">{{CarrerList.Name}}</a>
+                        </h3>
+                        <p><b>Post Date: </b>{{CarrerList.Date}}</p>
+                        <div style="clear: both; ">
+                            <a routerLink="/CarrerList">
+                                <button id="myBtn" type="button" style="font-size: 20px; padding: 10px 20px; color: black; margin-top: 30px;" class="pointer">Read More</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="clear: both;"></div>
+        </div>
+    </div>
+</div>
+
+<!--End Career Area-->

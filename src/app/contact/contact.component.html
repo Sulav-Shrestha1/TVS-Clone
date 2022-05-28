@@ -1,0 +1,153 @@
+<!--Start Page Information Area-->
+
+<div class="breadcrumb-area pt-130 pb-40" style="background-image: url(https://tvsnepal.com/assets/img/banner/banner-4.jpg)">
+    <div class="container-fluid">
+        <div class="breadcrumb-content text-center">
+            <h2>Contact Us</h2>
+            <ul>
+                <li>
+                    <a href="#">home</a>
+                </li>
+                <li class="pointer">
+                    Contact Us
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!--End Page Information Area-->
+
+<!--Start Contact Area-->
+
+<div class="contact-area">
+    <div class="all-info ptb-130">
+        <div class="container">
+            <div class="row">
+                <!-- Start Form Details-->
+                <div class="col-lg-6">
+                    <div class="contact-info-wrapper">
+                        <h4 class="contact-title" style="font-size: 25px;">INFORMATION</h4>
+                        <div class="communication-info">
+                            <div class="single-communication">
+                                <div class="communication-icon">
+                                    <i class="fas fa-home" aria-hidden="true"></i>
+                                </div>
+                                <div class="communication-text">
+                                    <h4>Address:</h4>
+                                    <p>Naxal, Kathmandu</p>
+                                </div>
+                            </div>
+                            <div class="single-communication">
+                                <div class="communication-icon">
+                                    <i class="fas fa-mobile-alt" aria-hidden="true"></i>
+                                </div>
+                                <div class="communication-text">
+                                    <h4>Phone:</h4>
+                                    <p>16600131337</p>
+                                </div>
+                            </div>
+                            <div class="single-communication">
+                                <div class="communication-icon">
+                                    <i class="far fa-envelope" aria-hidden="true"></i>
+                                </div>
+                                <div class="communication-text">
+                                    <h4>Email:</h4>
+                                    <p class="pointer">info@jagdambamotors.com</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="contact-message-wrapper">
+                        <h4 class="contact-title" style="font-size:25px">GET IN TOUCH</h4>
+                        <div class="contact-message">
+                            <form id="contact-form" action method="post">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="contact-form-style mb-20">
+                                            <input name="name" placeholder="Full Name" type="text">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="contact-form-style mb-20">
+                                            <input name="email" placeholder="Email Address" type="email">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <div class="contact-form-style mb-20">
+                                            <input name="subject" placeholder="Subject" type="text">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-12">
+                                        <div class="contact-form-style">
+                                            <textarea name="message" placeholder="Message"></textarea>
+                                            <button class="submit cr-btn btn-style" type="submit"><span>SEND MESSAGE</span></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div style="height: 5px; background-color: #CCC;" class="col-lg-12 mtb-100"></div>
+                <!--End Form Details-->
+
+                <!--Start Main Infor Details-->
+                <div class="col-lg-12">
+                    <h4 class="contct-title" style="font-size: 25px;">OUR DEALER'S INFORMATION</h4>
+                </div>
+
+                <form action="dealer-search" class="col-lg-12">
+                    <div class="row">
+                        <div class="col-lg-4 mb-20">
+                            <input type="text" name="name" placeholder="Search by Address or Dealer's Name" required>
+                        </div>
+                        <div class="col-lg-4">
+                            <button type="submit" name="search" id="search"> Search</button>
+                        </div>
+                        <div class="col-lg-4"></div>
+                    </div>
+                </form>
+                <div style="clear: both;"></div>
+                <div class="col-lg-4" *ngFor="let contactList of contacts">
+                    <div class="contact-info-wrapper mb-30">
+                        <div class="communication-info" style="padding: 30px 15px; margin-right: 0px;">
+                            <h4 class="contact-title">{{contactList.Name}}</h4>
+                            <div class="single-communication">
+                                <div class="communication-icon">
+                                    <i class="fas fa-home" aria-hidden="true"></i>
+                                </div>
+                                <div class="communication-text">
+                                    <h4>Address:</h4>
+                                    <p>{{contactList.Address}}</p>
+                                </div>
+                            </div>
+                            <div class="single-communication">
+                                <div class="communication-icon">
+                                    <i class="fas fa-mobile-alt" aria-hidden="true"></i>
+                                </div>
+                                <div class="communication-text">
+                                    <h4>Phone:</h4>
+                                    <p>{{contactList.Phone}}</p>
+                                </div>
+                            </div>
+                            <div class="single-communication">
+                                <div class="communication-icon">
+                                    <i class="far fa-envelope" aria-hidden="true"></i>
+                                </div>
+                                <div class="communication-text">
+                                    <h4>Email:</h4>
+                                    <p class="pointer">{{contactList.Email}}</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--End Contact Area-->

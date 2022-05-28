@@ -1,0 +1,262 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: #303030;
+}
+
+::selection {
+    background: #4fc1f0;
+    color: #fff;
+    text-shadow: none;
+}
+
+a,
+button,
+input {
+    outline: medium none;
+    color: #686868;
+    text-decoration: none !important;
+}
+
+.ptb-19 {
+    padding: 19px 0;
+}
+
+.header-area {
+    background-color: white !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+    color: #001232;
+    margin-top: 0px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.3;
+    margin-bottom: .5rem;
+}
+
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10 {
+    float: left;
+}
+
+.col-4,
+.col-8 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
+/*Start Page Details*/
+
+.pb-40 {
+    padding-bottom: 40px;
+}
+
+.pt-130 {
+    padding-top: 130px;
+}
+
+.container-fluid .breadcrumb-content.text-center h2 {
+    cursor: pointer !important;
+}
+
+.breadcrumb-content>h2 {
+    color: #fff;
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-bottom: 18px;
+    text-transform: uppercase;
+}
+
+.breadcrumb-content li a::after {
+    background-color: #fff;
+    content: "";
+    height: 2px;
+    position: absolute;
+    right: 1px;
+    top: 11px;
+    transform: rotate( -71deg);
+    width: 12px;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container-fluid .breadcrumb-content.text-center ul li {
+    cursor: pointer !important;
+}
+
+.breadcrumb-content li {
+    color: #fff;
+    display: inline-block;
+    font-size: 15px;
+    letter-spacing: 0.1px;
+    text-transform: uppercase;
+}
+
+.breadcrumb-content li a {
+    color: #fff;
+    padding-right: 20px;
+    position: relative;
+    text-decoration: none;
+}
+
+
+/* Shop Area*/
+
+
+/*End Shop Area*/
+
+.pt-120 {
+    padding-top: 120px;
+}
+
+.fluid-padding-2 .container-fluid {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.shop-topbar-wrapper {
+    border-bottom: 1px solid #f1f1f1;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    padding-bottom: 18px;
+}
+
+.view-mode>li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.view-mode>li.active a {
+    color: #ffb52f;
+}
+
+.view-mode>li a {
+    display: inline-block;
+    font-size: 23px;
+    line-height: 1;
+    margin-top: 8px;
+}
+
+.product-sorting {
+    display: flex;
+}
+
+.shop-product-sorting {
+    margin-right: 30px;
+    margin-top: 6px;
+}
+
+.shop-product-sorting a.active,
+.shop-product-sorting a.active:hover {
+    color: #ffb52f;
+}
+
+.shop-product-sorting a {
+    color: #001232;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1;
+    margin: 0 10px;
+}
+
+.shop-product-sorting a:hover {
+    color: #001232;
+}
+
+.product-wrapper {
+    position: relative;
+    box-shadow: 0 2px 8px 0.5px rgb(0 0 0 / 22%);
+    overflow: hidden;
+}
+
+.mb-35 {
+    margin-bottom: 35px;
+}
+
+.product-img {
+    position: relative;
+}
+
+.product-img img {
+    width: 100%;
+}
+
+.product-content-wrapper {
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    left: 0;
+    opacity: 1;
+    padding: 30px 40px 42px;
+    position: absolute;
+    transition: all 0.3s ease 0s;
+    width: 100%;
+}
+
+.product-title-spreed>h4 {
+    color: #353535;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 7px;
+    font-family: "Oswald", sans-serif;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+    color: inherit;
+}
+
+h6 {
+    font-size: 16px !important;
+    font-weight: 440 !important;
+}
+
+.product-list-details {
+    display: none;
+}
+
+.product-list-details>h2 {
+    color: #353535;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.product-list-details>h2 a {
+    color: #353535;
+}
+
+.product-wrapper:hover .product-content-wrapper {
+    opacity: 0;
+    bottom: -30px;
+}

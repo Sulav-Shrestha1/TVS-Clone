@@ -1,0 +1,87 @@
+<!--Start Page Information Area-->
+
+<div class="breadcrumb-area pt-130 pb-40" style="background-image: url(https://tvsnepal.com/assets/img/banner/banner-4.jpg)">
+    <div class="container-fluid">
+        <div class="breadcrumb-content text-center">
+            <h2 class="pointer">Accessories</h2>
+            <ul>
+                <li>
+                    <a routerLink="/">home</a>
+                </li>
+                <li class="pointer">Accessories</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!--End Page Information Area-->
+
+<!--Start Page Information Area-->
+
+<div class="shop-wrapper fluid-padding-2 pt-120 pb-50">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="shop-topbar-wrapper" style="display: none;">
+                    <div class="grid-list-options">
+                        <ul class="view-mode" style="display: none;">
+                            <li class="active"><a href="#product-grid" data-view="product-grid"><i class="ti-layout-grid2"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="product-sorting">
+                        <div class="shop-product-sorting nav">
+                            <a class="active" data-toggle="tab" href=""> </a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="grid-list-product-wrapper tab-content">
+                    <div id="product-bikes" class="product-grid product-view tab-pane active">
+                        <div class="row">
+
+                            <div class="product-width col-md-6 col-xl-4 col-lg-6" *ngFor="let accessoriesList of accessories">
+                                <div class="product-wrapper mb-35">
+                                    <div class="product-img">
+                                        <a routerLink="/AccessoriesList/{{accessoriesList.ID}}">
+                                            <img src="{{accessoriesList.accessoriesImg}}" alt="{{accessoriesList.Name}}" title="{{accessoriesList.Name}}" style="padding: 0px 0 125px 0;">
+                                        </a>
+                                        <div class="product-action">
+
+                                            <a class="action-plus-2" title="Add To Cart" routerLink="/Login">
+                                                <i class="fas fa-shopping-cart" style="font-size: 25px;"></i> Add To Cart
+                                            </a>
+
+                                        </div>
+                                        <div class="product-content-wrapper">
+                                            <div class="product-title-spreed">
+                                                <h4><a routerLink="/AccessoriesList/{{accessoriesList.ID}}">{{accessoriesList.Name}}</a></h4>
+                                            </div>
+                                            <div class="product-price">
+                                                <span>Price: {{accessoriesList.Price}}</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="product-list-details">
+                                        <h2><a href="product-details">{{accessoriesList.Name}}</a></h2>
+
+                                        <div class="shop-list-cart">
+                                            <a class="action-plus-2" title="Add To Cart" routerLink="/Login" style="border: solid 2px #CCC; padding: 15px 15px 5px;">
+                                                <i class="fas fa-shopping-cart" style="font-size: 25px;"></i> Add To Cart
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--End Page Information Area-->

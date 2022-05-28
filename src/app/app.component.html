@@ -1,0 +1,306 @@
+<div class="wrapper">
+
+    <!--Start Header Area-->
+    <header>
+        <div class="header-area ptb-19" [ngClass]="statusClass">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-4">
+                        <div class="logo-small-device">
+                            <a href="#">
+                                <img id="logo" src="https://tvsnepal.com/images/tvs-logo.png" alt="logo" width="335px">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-xl-8 col-lg-8 col-md-8 col-8">
+                        <div class="header-contact-menu-wrapper pl-45">
+                            <div class="header-contact">
+                                <h5 class="text-center" id="text-phone">
+                                    WANT TO TALK WITH US?
+                                    <br style="margin-bottom: 5px;">
+                                    <i class="fas fa-phone-alt"></i> 16600131337
+                                </h5>
+                            </div>
+                            <div class="menu-wrapper text-center">
+                                <button class="menu-toggle" id="menu" (click)="clickEvent()" [ngClass]="status ? 'open' : ''">
+                                <img class="menu-open" alt src="https://tvsnepal.com/assets/img/icon-img/menu.png">
+                                <img class="menu-close" alt src="https://tvsnepal.com/assets/img/icon-img/menu-close.png">
+                            </button>
+                                <div class="main-menu" [ngClass]="status ? 'open' : ''">
+                                    <nav class="navbar navbar-expand-lg navbar-light">
+                                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                                        <span class="navbar-toggler-icon"></span>
+                                        </button>
+                                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                                            <ul class="navbar-nav">
+                                                <li class="nav-item">
+                                                    <a class="nav-link active" aria-current="page" (click)="clickEvent()" routerLink="/">Home</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" aria-current="page" (click)="clickEvent()" (click)="clickEvent2()" routerLink="/AboutUs">About Us</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" aria-current="page" (click)="clickEvent()" (click)="clickEvent2()" routerLink="/Shop">Shop</a>
+                                                </li>
+                                                <li class="nav-item dropdown">
+                                                    <a class="nav-link" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                    Customers
+                                                    </a>
+                                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                                        <li><a class="dropdown-item" (click)="clickEvent()" (click)="clickEvent2()" routerLink="/Warranty">Warranty Policy</a></li>
+                                                        <li><a class="dropdown-item" (click)="clickEvent()" (click)="clickEvent2()" routerLink="/UserManual">User Manual</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link active" aria-current="page" (click)="clickEvent2()" (click)="clickEvent()" routerLink="/Blog">Blog</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" (click)="clickEvent()" (click)="clickEvent2()" routerLink="/Career">Career</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a class="nav-link" (click)="clickEvent()" (click)="clickEvent2()" routerLink="/Contact">Contact Us</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mobile-menu-area col-12">
+                        <div class="mobile-menu mean-container">
+                            <div class="mean-bar"><a href="#nav" class="meanmenu-reveal" style="text-align: center; text-indent: 0px; font-size: 18px;"><span></span><span></span><span></span></a>
+                                <nav class="mean-nav">
+                                    <ul class="menu-overflow" style="display: none;">
+                                        <li><a (click)="clickEvent()" routerLink="/">HOME</a></li>
+                                        <li><a (click)="clickEvent()" routerLink="/AboutUs">ABOUT</a></li>
+                                        <li><a (click)="clickEvent()" routerLink="/Shop">SHOP</a></li>
+                                        <li class=""><a href="#!">Customers</a>
+                                            <ul style="display: none;">
+                                                <li><a (click)="clickEvent()" routerLink="/Warranty"><i class="fa fa-angle-double-right"></i> <b>Warranty Policy</b></a></li>
+                                                <li><a (click)="clickEvent()" routerLink="/UserManual"><i class="fa fa-angle-double-right"></i> <b>User Manual</b></a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a (click)="clickEvent()" routerLink="/Blog">Blog</a></li>
+                                        <li><a (click)="clickEvent()" routerLink="/Career">Career</a></li>
+                                        <li class="mean-last"><a (click)="clickEvent()" routerLink="/Contact">Contact us</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                            <div class="mean-push"></div>
+                            <nav id="mobile-menu-active" style="display: none;">
+                                <ul class="menu-overflow">
+                                    <li><a (click)="clickEvent()" routerLink="/">HOME</a></li>
+                                    <li><a (click)="clickEvent()" routerLink="/AboutUs">ABOUT</a></li>
+                                    <li><a (click)="clickEvent()" routerLink="/Shop">SHOP</a></li>
+                                    <li class=""><a href="#!">Customers</a>
+                                        <ul>
+                                            <li><a (click)="clickEvent()" routerLink="/Warranty"><i class="fa fa-angle-double-right"></i> <b>Warranty Policy</b></a></li>
+                                            <li><a (click)="clickEvent()" routerLink="/UserManual"><i class="fa fa-angle-double-right"></i> <b>User Manual</b></a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a (click)="clickEvent()" routerLink="/Blog">Blog</a></li>
+                                    <li><a (click)="clickEvent()" routerLink="/Career">Career</a></li>
+                                    <li><a (click)="clickEvent()" routerLink="/Contact">Contact us</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <!--
+                    <div class="mobile-menu-area col-12">
+                        <div class="mobile-menu open">
+                            <nav id="mobile-menu-active" style="display: block;">
+                                <ul class="menu-overflow">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" (click)="clickEvent()" routerLink="/">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" aria-current="page" (click)="clickEvent()" routerLink="/AboutUs">About Us</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" aria-current="page" (click)="clickEvent()" routerLink="/Shop">Shop</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Customers
+                                    </a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                            <li><a class="dropdown-item" aria-current="page" (click)="clickEvent()" routerLink="/Warranty">Warranty Policy</a></li>
+                                            <li><a class="dropdown-item" aria-current="page" (click)="clickEvent()" routerLink="/UserManual">User Manual</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" (click)="clickEvent()" routerLink="/Blog">Blog</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" aria-current="page" (click)="clickEvent()" routerLink="/Career">Career</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" aria-current="page" (click)="clickEvent()" routerLink="/Contact">Contact Us</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    -->
+                </div>
+            </div>
+
+            <div class="header-cart-wrapper" style="height:100%; background-color:#ffb52f;">
+                <div class="header-cart">
+                    <a routerLink="/Login">
+                        <button class="icon-cart">  
+                            <i class="fas fa-sign-in-alt"></i>
+                        <span class="count-price-add">Login</span>
+                    </button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--End Header Area-->
+
+    <router-outlet></router-outlet>
+
+    <!--Start Footer-->
+    <footer>
+        <div class="footer-top pt-100 pb-50 theme-bg" style="z-index: 1;">
+            <div class="container ">
+                <div class="row ">
+                    <div class="col-lg-3 col-md-6 col-12 ">
+                        <div class="footer-widget mb-30 ">
+                            <div class="footer-logo ">
+                                <a href="# ">
+                                    <img src="https://tvsnepal.com/images/tvs-logo.png " width="200 ">
+                                </a>
+                            </div>
+                            <div class="footer-about ">
+                                <p>
+                                    Jagdamba Motors Pvt. Ltd. is the sole authorized distributor of TVS Motor Company in Nepal from September 2015. The company is operated by Shanker Group. Shanker group was founded in the year 1979 by Mr. Shanker Lal Agrawal with integration of diversified
+                                    operating companies, which had grown over the years since the initial foray in to business.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12 ">
+                        <div class="footer-widget mb-30 pl-60 ">
+                            <div class="footer-widget-title ">
+                                <h3>QUICK LINK</h3>
+                            </div>
+                            <div class="quick-links ">
+                                <ul>
+                                    <li>
+                                        <a routerLink="/" (click)="clickEvent3()">Home</a>
+                                    </li>
+                                    <li>
+                                        <a routerLink="/AboutUs" (click)="clickEvent3()" (click)="clickEvent2()">About Us</a>
+                                    </li>
+                                    <li>
+                                        <a routerLink="/BLog" (click)="clickEvent3()" (click)="clickEvent2()">Blog</a>
+                                    </li>
+                                    <li>
+                                        <a routerLink="/Shop" (click)="clickEvent3()" (click)="clickEvent2()">Shop</a>
+                                    </li>
+                                    <li>
+                                        <a routerLink="/Error" (click)="clickEvent3()" (click)="clickEvent2()">Events</a>
+                                    </li>
+                                    <li>
+                                        <a routerLink="/Contact" (click)="clickEvent3()" (click)="clickEvent2()">Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="footer-widget mb-30">
+                            <div class="footer-widget-title">
+                                <h3>BLOG POST</h3>
+                            </div>
+                            <div class="footer-widget-content pr-30">
+                                <div class="single-tweet" *ngFor="let blogList of blogs | slice: 0:3">
+                                    <p>
+                                        <i class="fa fa-angle-double-right "></i>
+                                        <a routerLink="/BlogList/{{blogList.ID}}">{{blogList.Name}}</a>
+                                    </p>
+                                    <p>
+                                        <b style="font-size: 18px; ">Date: </b> {{blogList.Date}}
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-12 ">
+                        <div class="footer-widget mb-30 ">
+                            <div class="footer-widget-title">
+                                <h3>CONTACT INFO</h3>
+                            </div>
+                            <div class="footer-info-wrapper">
+                                <div class="food-address">
+                                    <div class="food-info-content">
+                                        <h3 class="text-white">166001131337</h3>
+                                    </div>
+                                    <br>
+                                </div>
+                                <div class="food-address">
+                                    <div class="food-info-title">
+                                        <span>Address</span>
+                                    </div>
+                                    <div class="food-info-content">
+                                        <p>Naxal, Kathmandu</p>
+                                    </div>
+                                </div>
+                                <div class="food-address">
+                                    <div class="food-info-title">
+                                        <span>Email</span>
+                                    </div>
+                                    <div class="food-info-content">
+                                        <a href="mailto:info@jagdambamotors.com">info@jagdambamotors.com</a>
+                                    </div>
+                                </div>
+                                <ul>
+                                    <li class="pull-left ">
+                                        <a href="https://www.facebook.com/jmtvs" style="margin-right: 10px; background-color: #3b5998;padding: 10px 15px;">
+                                            <i class="fab fa-facebook-f" style="color: white;">
+                        </i>
+                                        </a>
+                                    </li>
+                                    <li class="pull-left ">
+                                        <a href="https://www.instagram.com/tvs_nepal" style="margin-right: 10px; background-color: #0095f6;padding: 10px 15px;">
+                                            <i class="fab fa-instagram" style="color: white;">
+                        </i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom ptb-15 black-bg ">
+            <div class="container ">
+                <div class="row ">
+                    <div class="col-md-12 col-12 ">
+                        <div class="copyright text-center ">
+                            <p>
+                                Copyright ©
+                                <script>
+                                    document.write(new Date().getFullYear());
+                                </script>
+                                2021 All rights reserved
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--End Footer-->
+    <!-- Scroll Up Icon-->
+    <a id="scrollUp" href="#top" style="position: fixed; z-index: 2147483647; display: block;">
+        <i class="fas fa-angle-up"></i>
+    </a>
+
+
+</div>

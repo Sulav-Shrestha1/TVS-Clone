@@ -1,0 +1,82 @@
+.pb-40 {
+    padding-bottom: 40px;
+}
+
+.pt-120 {
+    padding-top: 120px;
+}
+
+.pb-50 {
+    padding-bottom: 50px;
+}
+
+.pt-75 {
+    padding-top: 75px;
+}
+
+.blog-img {
+    margin-bottom: 28px;
+    overflow: hidden;
+    position: relative;
+}
+
+.blog-hm-wrapper:hover .blog-img img {
+    transform: scale(1.2);
+}
+
+.blog-img img {
+    transition: all 1.5s ease 0s;
+    width: 100%;
+}
+
+.blog-date {
+    left: -53px;
+    position: absolute;
+    top: 52px;
+}
+
+.blog-date h4 {
+    background-color: #001232;
+    color: #e9e9e9;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+    padding: 18px 15px 12px 45px;
+    transform: rotate( -90deg);
+}
+
+.blog-hm-content>h3 {
+    color: #353535;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 26px;
+    margin-bottom: 18px;
+}
+
+.blog-hm-content>h3 a {
+    color: #353535;
+    font-size: 25px;
+}
+
+.blog-hm-content>p {
+    font-size: 19px;
+    font-weight: normal;
+    line-height: 32px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.blog-hm-content>p a {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 32px;
+    margin-left: 5px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.blog-hm-content>h3 a:hover {
+    color: #ffb52f;
+}
+
+.blog-hm-content>h3 i {
+    margin-right: 5px;
+}

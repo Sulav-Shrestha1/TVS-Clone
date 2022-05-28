@@ -1,0 +1,47 @@
+<!--Start Accesories Area-->
+
+<div class="accessories-area pt-50 pb-50">
+    <div class="container-fluid">
+        <div class="section-title secton-fluid text-center">
+            <h2>ACCESSORIES</h2>
+        </div>
+        <div class="accessories-wrapper">
+            <div class="product-accessories-active owl-carousel owl-loaded owl-drag">
+                <owl-carousel-o [options]="accesssoriesOptions">
+                    <ng-template carouselSlide *ngFor="let accessoriesList of accessories">
+                        <div class="owl-stage-outer">
+                            <div class="owl-stage">
+                                <div class="owl-item active" style="width: 314.75px; margin-right: 20px;">
+                                    <div class="product-wrapper">
+                                        <div class="product-img">
+                                            <a routerLink="/AccessoriesList/{{accessoriesList.ID}}">
+                                                <img src="{{accessoriesList.accessoriesImg}}" alt="{{accessoriesList.Name}}" title="{{accessoriesList.Name}}" style="padding: 0 0 100px 0">
+                                            </a>
+                                            <div class="product-action">
+                                                <a class="action-plus-2" title="View Detail" routerLink="/AccessoriesList/{{accessoriesList.ID}}"> View Detail 
+                                            </a>
+                                            </div>
+                                            <div class="product-content-wrapper-2">
+                                                <div class="product-title-price-2 text-center">
+                                                    <span style="font-size: 14px;">
+                                                <b>Price:</b>
+                                                {{accessoriesList.Price}}
+                                            </span>
+                                                    <h4>
+                                                        <a routerLink="/AccessoriesList/{{accessoriesList.ID}}">{{accessoriesList.Name}}</a>
+                                                    </h4>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </ng-template>
+                </owl-carousel-o>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--End Accesories Area-->

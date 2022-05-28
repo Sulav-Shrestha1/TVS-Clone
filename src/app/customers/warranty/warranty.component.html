@@ -1,0 +1,86 @@
+<!--Start Page Information Area-->
+
+<div class="breadcrumb-area pt-130 pb-40" style="background-image: url(https://tvsnepal.com/assets/img/banner/banner-4.jpg)">
+    <div class="container-fluid">
+        <div class="breadcrumb-content text-center">
+            <h2>Warranty Policy</h2>
+            <ul>
+                <li>
+                    <a routerLink="/">home</a>
+                </li>
+                <li class="pointer">
+                    Warranty Policy
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!--End Start Page Information Area-->
+
+<!--Start Page Details Area-->
+
+<div class="pm-20">
+    <div class="services-area mb-30 mt-50">
+        <div class="container">
+            <div class="row">
+                <div class="overview-content mb-30">
+                    <h1> Warranty Terms for TVS - Motor Products </h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="services-area mb-30 mt-50" *ngFor="let warranty of policies">
+        <div class="container pb-30">
+            <div class="row">
+                <h4>
+                    <b>{{warranty.Name}}</b>
+                </h4>
+            </div>
+        </div>
+        <div class="container pb-30 pt-50" style="border: solid 3px #DDD;">
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <div class="orange mb-30 text-center">
+                        <div class="services-icon">
+                            <img src="{{warranty.Image1}}">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="yellow mb-30 text-center">
+                        <div class="services-icon">
+                            <img class="img-responsive-mobile" src="{{warranty.Image2}}">
+                        </div>
+                        <div class="services-text">
+                            <p> {{warranty.p1}}</p>
+                            <p> {{warranty.p2}}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container pb-30 pt-20">
+        <div class="row">
+            <div class="col-lg-12">
+                <p style="margin-bottom: 0px;">
+                    <b>* Conditions apply | #whichever is earlier</b>
+                </p>
+                <p style="margin-bottom: 0px;">
+                    <b>* The above warranty is applicable on all TVS 2 wheelers purchased on or after 11th Sep'17</b>
+                </p>
+                <p style="margin-bottom: 0px;">
+                    <b>*For RR310, the warranty is for 5 years for the BSVI variant only. T&C apply.</b>
+                </p>
+                <p style="margin-bottom: 0px;">
+                    <b>For more details, please refer the Warranty section of the Owners manual</b>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!--End Page Details Area-->

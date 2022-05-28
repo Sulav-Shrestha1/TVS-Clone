@@ -1,0 +1,32 @@
+{
+    "bikes": [
+        { "ID": "rr310", "Image": "https://tvsnepal.com/images/product/RR-3105cf8d27280ff0rr310.png", "Name": "RR 310", "Price": 799900.00, "Concept": "Honed by rigorous testing and unlimited laps on the race track with key inputs and feedback by the TVS Racing Team to ensure ultimate control on the track and street. 35 years of Racing heritage-based expertise come standard with every TVS Apache RR 310. The race-derived 310cc powerplant makes upstream air being used effectively to pass through the air filter with ram effect. This innovative and unique design provides a compact engine layout resulting in mass centralization delivering best-in-class Power-to-Weight ratio." },
+
+        { "ID": "rtr200-4V-ABS", "Image": "https://tvsnepal.com/images/product/RTR-200-4V-ABS5f395bfeb3883RTR-200-4v.png", "Name": "RTR 200 4V ABS", "Price": 355900.00, "Concept": "The TVS Apache RTR 200 4V Spearheads its class with never before seen innovation. The track focused machine boasts of Single -Channel ABS l, an advanced slipper clutch system, and pushes technological boundaries even further with the race telemetry enabled SmartXonnect - a system that provides essential race statistics and riding data." },
+        { "ID": "rtr160-4V-r-RD", "Image": "https://tvsnepal.com/images/product/RTR-160-4V-Refresh-RD60c1e30481403RTR-160-4V-Refresh5f7ff0316aa43Rtr-160-4v-Abs-5f797a6c711b0rtr160flat.png", "Name": "RTR 160 4V Refresh RD", "Price": 304900.00, "Concept": "All new Apache 160 4V with new looks and Smart Xonnect feature" },
+
+        { "ID": "rtr160-4V-r-ABS", "Image": "https://tvsnepal.com/images/product/RTR-160-4V-Refresh-with-ABS60c1e1daa04afRTR-160-4V-Refresh5f7ff0316aa43Rtr-160-4v-Abs-5f797a6c711b0rtr160flat.png", "Name": "RTR 160 4V Refresh with ABS", "Price": 324900.00, "Concept": "The nature of a champion is to outdo, and the TVS Apache RTR 160 4V being the most powerful bike in its class is engineered to outpower. Derived from the INMRC Championship winning bike – the RTR 165 Prototype, the bike has a heart of a champion. Race engineered with an unmistakable presence, the bike churns out 17.63 PS of power." },
+
+        { "ID": "rtr160-4V-FD", "Image": "https://tvsnepal.com/images/product/RTR-160-4V5cf8d295e83ca160_4v.png", "Name": "RTR 160 4V FD", "Price": 272900.00, "Concept": "The design of the RTR 1604V is refined on the racetrack. The form of the machine has a singular function, to be the quickest around the track. The bike has been sculpted to be dynamic through the corners while the sharp edges make it impose on the circuit. The chequered flag decals pay homage to our winning streak on the track." },
+
+        { "ID": "rtr160-4V-r-FD", "Image": "https://tvsnepal.com/images/product/RTR-160-4V-Refresh5f7ff0316aa43Rtr-160-4v-Abs-5f797a6c711b0rtr160flat.png", "Name": "RTR 160 4V Refresh FD", "Price": 287900.00, "Concept": "All new Apache 160 4V with new looks and Smart Xonnect feature" },
+
+        { "ID": "rtr160-4V-RD", "Image": "https://tvsnepal.com/images/product/RTR-160-4V-RD60c1e66c9cb7dRTR-160-4V5cf8d295e83ca160_4v.png", "Name": "RTR 200 4V RD", "Price": 290900.00, "Concept": "The design of the RTR 1604V is refined on the racetrack. The form of the machine has a singular function, to be the quickest around the track. The bike has been sculpted to be dynamic through the corners while the sharp edges make it impose on the circuit. The chequered flag decals pay homage to our winning streak on the track." },
+
+        { "ID": "rtr200-4V-v2.0", "Image": "https://tvsnepal.com/images/product/RTR-200-4V-v2.05cf8d27f1a4e82004v.png", "Name": "RTR 200 4V v2.0", "Price": 279900.00, "Concept": "The Apache RTR 200 4V Race Edition 2.0 is the first motorcycle in its class to be equipped with an advanced A-RT Slipper Clutch, a race-derived technology to complement the racing DNA of RTR 200 4V Engine. The motorcycle sports all-new dynamic racing-inspired graphics based on an aero-form theme along with a stylish and exclusively designed fly-screen for an aggressive racing stance." },
+
+        { "ID": "rtr180-2V", "Image": "https://tvsnepal.com/images/product/RTR-180-2V5cf8d28bdc940180_2v.png", "Name": "RTR 180 2V", "Price": 324900.00, "Concept": "The Apache RTR 180 2V comes with all new graphics. It is powered by 180cc single cylinder air cooled 4 stroke engine." },
+
+        { "ID": "rtr160-2V", "Image": "https://tvsnepal.com/images/product/RTR-160-2V60c1d5a54627bRTR-160-2V.png", "Name": "RTR 160 2V", "Price": 269900.00, "Concept": "The Apache RTR 160 2V comes with all new graphics. It is powered by 160cc single cylinder air cooled 4 stroke engine." },
+
+        { "ID": "stryker-125", "Image": "https://tvsnepal.com/images/product/Stryker-1255cf8d2b94fe18Stryker_125.png", "Name": "Stryker 125", "Price": 196900.00, "Concept": "Stryker 125 is powered by 125cc single cylinder engine." },
+
+        { "ID": "tvs-max-125", "Image": "https://tvsnepal.com/images/product/Tvs-Max-1255ee9f1bbd4c52Untitled-1.png", "Name": "Tvs Max 125", "Price": 241900.00, "Concept": "" },
+
+        { "ID": "radeon", "Image": "https://tvsnepal.com/images/product/Radeon5e048fac6b980Radeon.JPG", "Name": "Radeon", "Price": 186900.00, "Concept": "TVS Radeon won commuter of the year award. TVS Radeon 110cc with 4 Stroke Duralife engine. It is built with super strong box Iron Chassis." },
+
+        { "ID": "Xl-100", "Image": "https://tvsnepal.com/images/product/Xl-1005db1676b9e6c6xl100.png", "Name": "Xl 100", "Price": 115900.00, "Concept": "Xl 100 is 4 stroke single cylinder 100cc engine with max power of 4.3 BHP. It has a built-in rugged chassis to withstand demands of any terrain." },
+
+        { "ID": "tvs-stryker-125-r", "Image": "https://tvsnepal.com/images/product/Tvs-Stryker-125-Refresh60f1192556ecctvs-stryker-refresh.png", "Name": "Tvs Stryker 125 Refresh", "Price": 208900.00, "Concept": "Stryker 125 refresh is powered by 125cc single cylinder engine." }
+    ]
+}

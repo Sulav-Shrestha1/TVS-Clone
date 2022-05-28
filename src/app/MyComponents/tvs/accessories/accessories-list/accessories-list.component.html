@@ -1,0 +1,59 @@
+<!--Start Page Information Area-->
+
+<div class="breadcrumb-area pt-130 pb-40" style="background-image: url('https://tvsnepal.com/assets/img/banner/banner-4.jpg') !important;">
+    <div class="container-fluid">
+        <div class="breadcrumb-content text-center">
+            <h2 class="pointer">{{trgItem.Name}}</h2>
+            <ul>
+                <li>
+                    <a routerLink="/">home</a>
+                </li>
+                <li>
+                    <a routerLink="/AccessoriesDetails">Accessories</a>
+                </li>
+                <li class="pointer">{{trgItem.Name}}</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!--End Page Information Area-->
+
+
+<!--Start Accesories List Area-->
+
+<div class="product-details-area fluid-padding-3 ptb-130">
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="col-lg-12">
+                <div class="product-details-content">
+                    <!-- <h2 class="text-center pointer">Concept</h2> -->
+                    <div class="product-overview">
+
+                        <div class="col-lg-6" style="float: left;">
+                            <img src="{{trgItem.accessoriesImg}}" alt="{{trgItem.Name}}" title="{{trgItem.Name}}" style="width: 100%;">
+                        </div>
+                        <div class="col-lg-6" style="float: left;">
+                            <h5 class="pd-sub-title">{{trgItem.Name}}</h5>
+                            <p class="pt-30"><b>Price:</b>{{trgItem.Price}}</p>
+                            <p>{{trgItem.content}}</p>
+                            <div style="margin-top: 50px;">
+                                <a class="action-plus-2" title="Add To Cart" routerLink="/Login" style="border: solid 2px #CCC; cursor: pointer; padding: 15px 15px 5px;">
+                                    <i class="fas fa-shopping-cart" style="font-size: 25px;"></i> Add To Cart
+                                </a>
+
+
+                            </div>
+
+                        </div>
+                        <div style="clear: both;"></div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--End Accesories List Area-->
